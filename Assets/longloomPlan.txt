@@ -1,0 +1,24 @@
+UI
+for select default gadget
+for choosing other gadget (power plant etc scanner barricade etc.)
+HP
+Resource
+Minimap
+
+The shit I have to code
+Tile behaviour
+player behaviour default gadget probably will be included here
+alien behaviour
+defensive gadget
+	- ป้อม
+	- กับระเบิด
+	เอาเท่านี้่ก่อน
+Utility Gadget
+	-scanner ** may be in player
+	-Barricade
+	-power plant
+	-smelter
+	-light
+Save system may be variable in player that don't get destroy may work.
+Resource can actually kept as a variables in player and just don't destroy in when change scene
+GameManagers (spawn enemy load map Mange UI )
