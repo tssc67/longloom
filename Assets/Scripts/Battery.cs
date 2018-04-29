@@ -23,6 +23,11 @@ public class Battery : MonoBehaviour {
         if (lifetime <= 0) Destroy(gameObject);
     }
 
+    public bool isEmpty()
+    {
+        return lifetime <= 0;
+    }
+
     public void SetLifeTime(double amount){
         this.lifetime = amount;
     }
