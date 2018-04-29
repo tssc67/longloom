@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManagers : MonoBehaviour {
-    public GameObject alienPrefab;
+public class CameraController : MonoBehaviour {
     public GameObject character;
-    public Grid grid;
 	// Use this for initialization
 	void Start () {
-        //Instantiate(alienPrefab, new Vector2(0, 0), Quaternion.identity);
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	}
+        Vector3 _p = transform.position;
+        Vector3 cp = character.transform.position;
+        transform.position = new Vector3(cp.x, cp.y, _p.z);
+    }
 }

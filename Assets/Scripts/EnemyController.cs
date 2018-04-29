@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Barricade : Structure {
+public class EnemyController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		hp = 1000;
+		
 	}
 	
 	// Update is called once per frame
