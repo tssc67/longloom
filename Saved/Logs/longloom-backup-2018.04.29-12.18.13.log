@@ -1,0 +1,1586 @@
+﻿Log file open, 04/14/18 21:10:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: longloom
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2064126747) SRandInit(-2064126747).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.171542
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.139s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Binaries/Win64/UE4Editor-longloom-752.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-HTJHSD1 (192.168.43.186:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.14-14.10.26:988][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.14-14.10.26:988][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.14-14.10.27:008][  0]LogInit: Computer: DESKTOP-HTJHSD1
+[2018.04.14-14.10.27:008][  0]LogInit: User: teera
+[2018.04.14-14.10.27:008][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.04.14-14.10.27:008][  0]LogInit: High frequency timer resolution =2.835934 MHz
+[2018.04.14-14.10.27:008][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2018.04.14-14.10.27:008][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.14-14.10.27:008][  0]LogMemory: Process Physical Memory: 274.74 MB used, 274.74 MB peak
+[2018.04.14-14.10.27:008][  0]LogMemory: Process Virtual Memory: 268.05 MB used, 268.05 MB peak
+[2018.04.14-14.10.27:008][  0]LogMemory: Physical Memory: 5126.05 MB used,  2790.94 MB free, 7916.99 MB total
+[2018.04.14-14.10.27:008][  0]LogMemory: Virtual Memory: 683.50 MB used,  2790.94 MB free, 134217728.00 MB total
+[2018.04.14-14.10.27:029][  0]LogInit: Using OS detected language (en-US).
+[2018.04.14-14.10.27:029][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.14-14.10.27:033][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.14-14.10.27:484][  0]LogStreaming: Display: Took  0.455s to EndInitTextLocalization.
+[2018.04.14-14.10.27:485][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.14-14.10.27:541][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.14-14.10.27:541][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.14-14.10.27:813][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.14-14.10.27:823][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.04.14-14.10.27:823][  0]LogD3D11RHI:       128/0/3958 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2018.04.14-14.10.27:826][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.14-14.10.27:826][  0]LogD3D11RHI:       0/0/3958 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.14-14.10.27:829][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.14-14.10.27:829][  0]LogD3D11RHI:       0/0/3958 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.14-14.10.27:829][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.14-14.10.27:839][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.14-14.10.27:839][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.14-14.10.27:839][  0]LogWindows: EnumDisplayDevices:
+[2018.04.14-14.10.27:839][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.04.14-14.10.27:839][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.04.14-14.10.27:839][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.04.14-14.10.27:839][  0]LogWindows:    3. 'Miracast display port driver V3' (P:0 D:1)
+[2018.04.14-14.10.27:839][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.14-14.10.27:839][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.04.14-14.10.27:839][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.14-14.10.27:839][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.14-14.10.27:839][  0]LogRHI: Texture pool is 1475 MB (70% of 2107 MB)
+[2018.04.14-14.10.27:847][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.14-14.10.27:854][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.04.14-14.10.27:855][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/teera/Documents/Unreal Projects/longloom/Intermediate/Shaders/WorkingDirectory/13620/).
+[2018.04.14-14.10.27:856][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/teera/AppData/Local/Temp/UnrealShaderWorkingDir/533EFB3C4E4F851F7F6A7399F0209F3A/'.
+[2018.04.14-14.10.28:162][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.14-14.10.28:178][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.14-14.10.28:194][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.14-14.10.28:210][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.14-14.10.28:225][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.14-14.10.28:242][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.14-14.10.28:259][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.14-14.10.28:276][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.14-14.10.28:283][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.14-14.10.28:296][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.14-14.10.28:310][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.14-14.10.28:323][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.14-14.10.28:338][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.14-14.10.28:351][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.14-14.10.28:364][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.14-14.10.28:390][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.14-14.10.28:390][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.14-14.10.28:405][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.14-14.10.28:406][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.14-14.10.28:446][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.14-14.10.28:458][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.14-14.10.28:472][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.14-14.10.28:484][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.14-14.10.28:498][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.14-14.10.28:511][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.14-14.10.28:511][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.14-14.10.28:651][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.14-14.10.28:651][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.14-14.10.28:651][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.14-14.10.29:448][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.14-14.10.29:535][  0]LogDerivedDataCache: Loaded boot cache 0.09s 75MB C:/Users/teera/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.14-14.10.29:536][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/teera/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.14-14.10.29:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/teera/Documents/Unreal Projects/longloom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.14-14.10.29:536][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.14-14.10.29:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/teera/Documents/Unreal Projects/longloom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.14-14.10.29:537][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.14-14.10.29:560][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.14-14.10.29:574][  0]LogDerivedDataCache: Using Local data cache path C:/Users/teera/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.14-14.10.29:589][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.14-14.10.29:590][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.14-14.10.29:591][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.14-14.10.29:591][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.14-14.10.29:738][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2018.04.14-14.10.30:304][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.14-14.10.30:565][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.14-14.10.30:570][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.14-14.10.30:570][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.14-14.10.30:570][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.14-14.10.30:570][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.14-14.10.30:571][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.14-14.10.30:624][  0]LogNetVersion: longloom , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1553352505)
+[2018.04.14-14.10.31:336][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.172917 seconds
+[2018.04.14-14.10.31:348][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.14-14.10.31:348][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.04.14-14.10.31:348][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.14-14.10.33:849][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.14-14.10.33:887][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.14-14.10.34:486][  0]SourceControl: Source control is disabled
+[2018.04.14-14.10.34:486][  0]SourceControl: Source control is disabled
+[2018.04.14-14.10.34:513][  0]SourceControl: Source control is disabled
+[2018.04.14-14.10.34:549][  0]SourceControl: Source control is disabled
+[2018.04.14-14.10.35:300][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.14-14.10.35:531][  0]LogOcInput: OculusInput pre-init called
+[2018.04.14-14.10.35:678][  0]LogEngine: Initializing Engine...
+[2018.04.14-14.10.35:680][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.14-14.10.35:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.14-14.10.35:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.14-14.10.36:017][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.14-14.10.36:052][  0]LogInit: XAudio2 using 'Digital Output (DESKTOP-HTJHSD1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.14-14.10.36:076][  0]LogInit: FAudioDevice initialized.
+[2018.04.14-14.10.36:145][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/teera/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.14-14.10.36:163][  0]LogInit: Texture streaming: Enabled
+[2018.04.14-14.10.36:195][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.14-14.10.36:222][  0]LogInit: Transaction tracking system initialized
+[2018.04.14-14.10.36:274][  0]BlueprintLog: New page: Editor Load
+[2018.04.14-14.10.36:431][  0]LocalizationService: Localization service is disabled
+[2018.04.14-14.10.36:633][  0]LogConsoleResponse: Display: 
+[2018.04.14-14.10.36:891][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.14-14.10.36:891][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.14-14.10.36:892][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.14-14.10.36:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.14-14.10.36:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.14-14.10.37:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teera/Documents/Unreal Projects/longloom/Content/' took 0.03s
+[2018.04.14-14.10.37:718][  0]SourceControl: Source control is disabled
+[2018.04.14-14.10.37:718][  0]Cmd: MAP LOAD FILE="../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.14-14.10.37:719][  0]LightingResults: New page: Lighting Build
+[2018.04.14-14.10.37:724][  0]MapCheck: New page: Map Check
+[2018.04.14-14.10.37:724][  0]LightingResults: New page: Lighting Build
+[2018.04.14-14.10.37:876][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-14.10.37:880][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.14-14.10.37:918][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.14-14.10.38:017][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99.099ms to complete.
+[2018.04.14-14.10.38:017][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.299
+[2018.04.14-14.10.38:111][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.14-14.10.38:111][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.14-14.10.38:284][  0]LogCollectionManager: Loaded 0 collections in 0.004494 seconds
+[2018.04.14-14.10.38:338][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teera/Documents/Unreal Projects/longloom/Saved/Collections/' took 0.01s
+[2018.04.14-14.10.38:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teera/Documents/Unreal Projects/longloom/Content/Developers/teera/Collections/' took 0.01s
+[2018.04.14-14.10.38:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teera/Documents/Unreal Projects/longloom/Content/Collections/' took 0.01s
+[2018.04.14-14.10.38:339][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.14-14.10.38:356][  0]LogContentBrowser: Native class hierarchy populated in 0.0170 seconds. Added 2456 classes and 560 folders.
+[2018.04.14-14.10.38:370][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.04.14-14.10.38:894][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0035 seconds. Added 0 classes and 0 folders.
+[2018.04.14-14.10.38:905][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.04.14-14.10.39:055][  0]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.14-14.10.39:059][  0]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.14-14.10.39:078][  0]LogSlate: Took 0.005680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.14-14.10.39:276][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.14-14.10.40:599][  0]LogSlate: Took 0.005461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.14-14.10.40:753][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.04.14-14.10.40:753][  0]LogLoad: (Engine Initialization) Total time: 17.52 seconds
+[2018.04.14-14.10.40:753][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.14-14.10.41:115][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.14-14.10.41:155][  2]LogAssetRegistry: Asset discovery search completed in 11.4385 seconds
+[2018.04.14-14.10.41:157][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.14-14.10.41:157][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2018.04.14-14.10.42:834][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.11.42:653][225]LogHotReload: New module detected: UE4Editor-longloom-6585.dll
+[2018.04.14-14.11.43:854][229]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.14-14.11.43:873][229]LogSlate: Took 0.000507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.14-14.11.44:010][229]LogClass: Could not find existing class longloomGameMode in package /Script/longloom for HotReload, assuming new class
+[2018.04.14-14.11.44:013][229]LogClass: BlockType HotReload.
+[2018.04.14-14.11.44:018][229]LogHotReload: Re-instancing longloomCharacter after hot-reload.
+[2018.04.14-14.11.44:251][229]LogHotReload: Re-instancing longloomGameMode after hot-reload.
+[2018.04.14-14.11.44:320][229]LogContentBrowser: Native class hierarchy updated for 'longloom' in 0.0010 seconds. Added 4 classes and 2 folders.
+[2018.04.14-14.11.44:322][229]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.14-14.11.44:429][229]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2457 classes and 562 folders.
+[2018.04.14-14.11.44:443][229]Display: HotReload took  0.6s.
+[2018.04.14-14.11.55:482][262]LogHotReload: New module detected: UE4Editor-longloom-8698.dll
+[2018.04.14-14.11.56:510][266]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.14-14.11.56:609][266]LogClass: BlockType HotReload.
+[2018.04.14-14.11.56:615][266]LogHotReload: Re-instancing longloomCharacter after hot-reload.
+[2018.04.14-14.11.56:881][266]LogContentBrowser: Native class hierarchy updated for 'longloom' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2018.04.14-14.11.56:884][266]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.14-14.11.56:977][266]LogContentBrowser: Native class hierarchy populated in 0.0197 seconds. Added 2457 classes and 562 folders.
+[2018.04.14-14.11.56:988][266]Display: HotReload took  0.5s.
+[2018.04.14-14.12.00:456][298]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.14-14.12.00:506][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.00:506][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-14.12.00:510][298]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 15, 2018, 4:12:00 AM)
+[2018.04.14-14.12.00:511][298]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.04.14-14.12.00:520][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008726s)
+[2018.04.14-14.12.00:521][298]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-14.12.00:521][298]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2018.04.14-14.12.00:521][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.010263s)
+[2018.04.14-14.12.00:551][298]LogInit: XAudio2 using 'Digital Output (DESKTOP-HTJHSD1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.14-14.12.00:559][298]LogInit: FAudioDevice initialized.
+[2018.04.14-14.12.00:614][298]LogLoad: Game class is 'longloomGameMode'
+[2018.04.14-14.12.00:620][298]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.04.14-21.12.00
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: Map data: ../../../../../../Users/teera/Documents/Unreal Projects/longloom/defaultMap.csv 
+0,1,0,0,0,1,0,0,0,0,0,0,0
+0,0,0,1,0,0,0,0,0,0,0,0,0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 1
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 1
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 1
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:628][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:629][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:629][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:629][298]LogTemp: Warning: 0
+[2018.04.14-14.12.00:629][298]LogTemp: Warning: Map size 13 2
+[2018.04.14-14.12.00:629][298]LogTemp: Warning: Generating Map
+[2018.04.14-14.12.00:635][298]LogWorld: Bringing up level for play took: 0.016599
+[2018.04.14-14.12.00:694][298]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2018.04.14-14.12.00:697][298]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.658
+[2018.04.14-14.12.00:697][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.01:650][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.01:730][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.12:604][352]LogHotReload: New module detected: UE4Editor-longloom-6461.dll
+[2018.04.14-14.12.13:642][356]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.14-14.12.13:717][356]LogClass: BlockType HotReload.
+[2018.04.14-14.12.13:723][356]LogHotReload: Re-instancing longloomCharacter after hot-reload.
+[2018.04.14-14.12.13:920][356]LogContentBrowser: Native class hierarchy updated for 'longloom' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2018.04.14-14.12.13:922][356]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.14-14.12.13:988][356]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2457 classes and 562 folders.
+[2018.04.14-14.12.13:996][356]Display: HotReload took  0.4s.
+[2018.04.14-14.12.16:365][407]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.14-14.12.16:419][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.16:420][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-14.12.16:420][407]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 15, 2018, 4:12:16 AM)
+[2018.04.14-14.12.16:420][407]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.04.14-14.12.16:427][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006964s)
+[2018.04.14-14.12.16:428][407]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-14.12.16:429][407]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2018.04.14-14.12.16:429][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008773s)
+[2018.04.14-14.12.16:467][407]LogInit: XAudio2 using 'Digital Output (DESKTOP-HTJHSD1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.14-14.12.16:477][407]LogInit: FAudioDevice initialized.
+[2018.04.14-14.12.16:523][407]LogLoad: Game class is 'longloomGameMode'
+[2018.04.14-14.12.16:525][407]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.04.14-21.12.16
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: Map data: ../../../../../../Users/teera/Documents/Unreal Projects/longloom/defaultMap.csv 
+0,1,0,0,0,1,0,0,0,0,0,0,0
+0,0,0,1,0,0,0,0,0,0,0,0,0
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 1
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 1
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:525][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 1
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: 0
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: Map size 13 2
+[2018.04.14-14.12.16:526][407]LogTemp: Warning: Generating Map
+[2018.04.14-14.12.16:531][407]LogWorld: Bringing up level for play took: 0.007036
+[2018.04.14-14.12.16:533][407]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.495
+[2018.04.14-14.12.16:533][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.17:414][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.17:492][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.31:640][476]LogHotReload: New module detected: UE4Editor-longloom-5450.dll
+[2018.04.14-14.12.32:458][479]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.14-14.12.32:529][479]LogClass: BlockType HotReload.
+[2018.04.14-14.12.32:536][479]LogHotReload: Re-instancing longloomCharacter after hot-reload.
+[2018.04.14-14.12.32:850][479]LogContentBrowser: Native class hierarchy updated for 'longloom' in 0.0015 seconds. Added 4 classes and 2 folders.
+[2018.04.14-14.12.32:853][479]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.14-14.12.32:942][479]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2457 classes and 562 folders.
+[2018.04.14-14.12.32:950][479]Display: HotReload took  0.5s.
+[2018.04.14-14.12.34:538][507]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.14-14.12.34:579][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.34:579][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-14.12.34:579][507]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 15, 2018, 4:12:34 AM)
+[2018.04.14-14.12.34:579][507]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.04.14-14.12.34:584][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004478s)
+[2018.04.14-14.12.34:585][507]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-14.12.34:585][507]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2018.04.14-14.12.34:585][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006000s)
+[2018.04.14-14.12.34:618][507]LogInit: XAudio2 using 'Digital Output (DESKTOP-HTJHSD1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.14-14.12.34:627][507]LogInit: FAudioDevice initialized.
+[2018.04.14-14.12.34:666][507]LogLoad: Game class is 'longloomGameMode'
+[2018.04.14-14.12.34:668][507]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.04.14-21.12.34
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: Map data: ../../../../../../Users/teera/Documents/Unreal Projects/longloom/defaultMap.csv 
+0,1,0,0,0,1,0,0,0,0,0,0,0
+0,0,0,1,0,0,0,0,0,0,0,0,0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 1
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 1
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:669][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 1
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: 0
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: Map size 13 2
+[2018.04.14-14.12.34:670][507]LogTemp: Warning: Generating Map
+[2018.04.14-14.12.34:679][507]LogWorld: Bringing up level for play took: 0.011489
+[2018.04.14-14.12.34:680][507]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.642
+[2018.04.14-14.12.34:681][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.43:844][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.43:908][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.12.45:823][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.12.45:967][874]Cmd: SELECT NONE
+[2018.04.14-14.12.56:421][113]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 116 classes and 0 folders.
+[2018.04.14-14.12.57:550][113]LogSlate: Took 0.006079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.14-14.12.57:666][114]LogSlate: Took 0.004859 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.14-14.13.07:487][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/BlockBP" FILE="../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockBP.uasset" SILENT=true
+[2018.04.14-14.13.07:569][331]LogSavePackage: Save=44.90ms
+[2018.04.14-14.13.07:569][331]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockBP97E783AF469D84AEDD2F508C5F92BE6A.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockBP.uasset'
+[2018.04.14-14.13.07:596][331]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockBP.uasset
+[2018.04.14-14.18.06:176][439]LogSlate: Window 'BlockBP' being destroyed
+[2018.04.14-14.18.06:219][439]LogSlate: Window 'BlockBP' being destroyed
+[2018.04.14-14.19.28:187][207]LogHotReload: New module detected: UE4Editor-longloom-1588.dll
+[2018.04.14-14.20.21:155][364]LogHotReload: New module detected: UE4Editor-longloom-5465.dll
+[2018.04.14-14.20.53:889][460]LogHotReload: New module detected: UE4Editor-longloom-787.dll
+[2018.04.14-14.20.54:689][463]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.14-14.20.54:907][463]LogClass: BlockType HotReload.
+[2018.04.14-14.20.54:911][463]LogHotReload: Re-instancing longloomCharacter after hot-reload.
+[2018.04.14-14.20.55:233][463]LogContentBrowser: Native class hierarchy updated for 'longloom' in 0.0017 seconds. Added 4 classes and 2 folders.
+[2018.04.14-14.20.55:236][463]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.14-14.20.55:730][463]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2457 classes and 562 folders.
+[2018.04.14-14.20.55:740][463]Display: HotReload took  1.1s.
+[2018.04.14-14.21.30:646][624]LogHotReload: New module detected: UE4Editor-longloom-7259.dll
+[2018.04.14-14.21.31:717][628]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.14-14.21.31:909][628]LogClass: Could not find existing class Block in package /Script/longloom for HotReload, assuming new class
+[2018.04.14-14.21.31:915][628]LogClass: BlockType HotReload.
+[2018.04.14-14.21.31:921][628]LogHotReload: Re-instancing Block after hot-reload.
+[2018.04.14-14.21.32:040][628]LogHotReload: Re-instancing longloomCharacter after hot-reload.
+[2018.04.14-14.21.32:373][628]LogContentBrowser: Native class hierarchy updated for 'longloom' in 0.0012 seconds. Added 4 classes and 2 folders.
+[2018.04.14-14.21.32:377][628]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.14-14.21.33:083][628]LogContentBrowser: Native class hierarchy populated in 0.0253 seconds. Added 2457 classes and 562 folders.
+[2018.04.14-14.21.33:097][628]Display: HotReload took  1.4s.
+[2018.04.14-14.21.52:927][687]LogHotReload: New module detected: UE4Editor-longloom-679.dll
+[2018.04.14-14.21.53:947][691]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.14-14.21.54:044][691]LogClass: BlockType HotReload.
+[2018.04.14-14.21.54:048][691]LogHotReload: Re-instancing longloomCharacter after hot-reload.
+[2018.04.14-14.21.54:250][691]LogContentBrowser: Native class hierarchy updated for 'longloom' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2018.04.14-14.21.54:255][691]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.14-14.21.54:588][691]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2457 classes and 562 folders.
+[2018.04.14-14.21.54:595][691]Display: HotReload took  0.6s.
+[2018.04.14-14.22.23:356][808]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.04.14-14.22.24:273][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.22.51:780][383]LogSlate: Window 'BlockBP' being destroyed
+[2018.04.14-14.22.51:807][383]LogSlate: Window 'BlockBP' being destroyed
+[2018.04.14-14.22.52:890][394]LogSavePackage: Save=192.33ms
+[2018.04.14-14.22.52:890][394]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/2DSideScrollerExampleMap69B7698144497C494824848788750C91.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2018.04.14-14.22.52:899][394]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2018.04.14-14.22.52:968][394]LogSavePackage: Save=7.54ms
+[2018.04.14-14.22.52:968][394]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/2DSideScrollerExampleMap_BuiltDaED77FEC3447B175776331D9A6D9007E4.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2018.04.14-14.22.52:972][394]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.04.14-14.23.10:942][755]BlueprintLog: New page: Compile BlockBP
+[2018.04.14-14.23.30:669][134]LogSlate: Window 'BlockBP' being destroyed
+[2018.04.14-14.23.42:914][367]LogEditorTransaction: Undo Add New Event Dispatcher
+[2018.04.14-14.24.44:307][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/BlockBP" FILE="../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockBP.uasset" SILENT=true
+[2018.04.14-14.24.44:402][580]LogSavePackage: Save=42.23ms
+[2018.04.14-14.24.44:402][580]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockBP91D92E9F42B05CDC230841A96C7CBFD8.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockBP.uasset'
+[2018.04.14-14.24.44:416][580]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockBP.uasset
+[2018.04.14-14.24.45:283][597]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.14-14.24.45:403][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.24.45:403][597]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.14-14.24.45:414][597]LogPlayLevel: [PlayLevel] Compiling BlockBP before play...
+[2018.04.14-14.24.46:694][597]LogPlayLevel: PlayLevel: Blueprint regeneration took 1291 ms (1 blueprints)
+[2018.04.14-14.24.46:695][597]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 15, 2018, 4:24:46 AM)
+[2018.04.14-14.24.46:695][597]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.04.14-14.24.46:720][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024606s)
+[2018.04.14-14.24.46:721][597]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-14.24.46:723][597]LogPlayLevel: PIE: World Init took: (0.002673s)
+[2018.04.14-14.24.46:723][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.027748s)
+[2018.04.14-14.24.46:790][597]LogInit: XAudio2 using 'Digital Output (DESKTOP-HTJHSD1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.14-14.24.46:803][597]LogInit: FAudioDevice initialized.
+[2018.04.14-14.24.46:844][597]LogLoad: Game class is 'longloomGameMode'
+[2018.04.14-14.24.46:849][597]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 3) at 2018.04.14-21.24.46
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: Map data: ../../../../../../Users/teera/Documents/Unreal Projects/longloom/defaultMap.csv 
+0,1,0,0,0,1,0,0,0,0,0,0,0
+0,0,0,1,0,0,0,0,0,0,0,0,0
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 1
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 1
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:860][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 1
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: 0
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: Map size 13 2
+[2018.04.14-14.24.46:861][597]LogTemp: Warning: Generating Map
+[2018.04.14-14.24.46:871][597]LogWorld: Bringing up level for play took: 0.025496
+[2018.04.14-14.24.46:874][597]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.835
+[2018.04.14-14.24.46:874][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.24.50:414][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.24.50:487][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.24.51:136][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.24.51:221][717]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.14-14.24.51:291][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.24.51:292][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-14.24.51:292][717]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 15, 2018, 4:24:51 AM)
+[2018.04.14-14.24.51:292][717]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.04.14-14.24.51:297][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004963s)
+[2018.04.14-14.24.51:298][717]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-14.24.51:299][717]LogPlayLevel: PIE: World Init took: (0.001318s)
+[2018.04.14-14.24.51:299][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006615s)
+[2018.04.14-14.24.51:357][717]LogInit: XAudio2 using 'Digital Output (DESKTOP-HTJHSD1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.14-14.24.51:371][717]LogInit: FAudioDevice initialized.
+[2018.04.14-14.24.51:414][717]LogLoad: Game class is 'longloomGameMode'
+[2018.04.14-14.24.51:416][717]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.04.14-21.24.51
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: Map data: ../../../../../../Users/teera/Documents/Unreal Projects/longloom/defaultMap.csv 
+0,1,0,0,0,1,0,0,0,0,0,0,0
+0,0,0,1,0,0,0,0,0,0,0,0,0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 1
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 1
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 1
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:417][717]LogTemp: Warning: 0
+[2018.04.14-14.24.51:418][717]LogTemp: Warning: Map size 13 2
+[2018.04.14-14.24.51:418][717]LogTemp: Warning: Generating Map
+[2018.04.14-14.24.51:424][717]LogWorld: Bringing up level for play took: 0.009385
+[2018.04.14-14.24.51:427][717]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.612
+[2018.04.14-14.24.51:427][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.25.08:888][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.14-14.25.13:069][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.25.13:135][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.25.26:846][616]LogSlate: Window 'BlockBP' being destroyed
+[2018.04.14-14.25.26:879][616]LogSlate: Window 'BlockBP' being destroyed
+[2018.04.14-14.25.27:712][632]Cmd: SELECT NONE
+[2018.04.14-14.25.28:164][645]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.04.14-14.25.28:270][645]Cmd: SELECT NONE
+[2018.04.14-14.25.28:493][652]Cmd: SELECT NONE
+[2018.04.14-14.25.42:984][727]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.14-14.27.49:315][112]LogHotReload: New module detected: UE4Editor-longloom-9345.dll
+[2018.04.14-14.27.50:038][115]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.14-14.27.50:126][115]LogClass: Could not find existing class Block in package /Script/longloom for HotReload, assuming new class
+[2018.04.14-14.27.50:126][115]LogClass: Function onHit is new.
+[2018.04.14-14.27.50:132][115]LogClass: BlockType HotReload.
+[2018.04.14-14.27.50:136][115]LogHotReload: Re-instancing Block after hot-reload.
+[2018.04.14-14.27.50:238][115]LogHotReload: Re-instancing longloomCharacter after hot-reload.
+[2018.04.14-14.27.50:505][115]LogContentBrowser: Native class hierarchy updated for 'longloom' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2018.04.14-14.27.50:508][115]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.14-14.27.50:867][115]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2457 classes and 562 folders.
+[2018.04.14-14.27.50:876][115]Display: HotReload took  0.8s.
+[2018.04.14-14.28.07:716][594]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.14-14.28.07:779][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.07:779][594]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.14-14.28.07:787][594]LogPlayLevel: [PlayLevel] Compiling BlockBP before play...
+[2018.04.14-14.28.08:355][594]LogPlayLevel: PlayLevel: Blueprint regeneration took 576 ms (1 blueprints)
+[2018.04.14-14.28.08:355][594]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 15, 2018, 4:28:08 AM)
+[2018.04.14-14.28.08:355][594]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.04.14-14.28.08:359][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003467s)
+[2018.04.14-14.28.08:359][594]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-14.28.08:360][594]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2018.04.14-14.28.08:360][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004528s)
+[2018.04.14-14.28.08:441][594]LogInit: XAudio2 using 'Digital Output (DESKTOP-HTJHSD1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.14-14.28.08:448][594]LogInit: FAudioDevice initialized.
+[2018.04.14-14.28.08:505][594]LogLoad: Game class is 'longloomGameMode'
+[2018.04.14-14.28.08:507][594]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.04.14-21.28.08
+[2018.04.14-14.28.08:508][594]LogTemp: Warning: Map data: ../../../../../../Users/teera/Documents/Unreal Projects/longloom/defaultMap.csv 
+0,1,0,0,0,1,0,0,0,0,0,0,0
+0,0,0,1,0,0,0,0,0,0,0,0,0
+[2018.04.14-14.28.08:508][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:508][594]LogTemp: Warning: 1
+[2018.04.14-14.28.08:508][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:508][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:508][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:508][594]LogTemp: Warning: 1
+[2018.04.14-14.28.08:508][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 1
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: 0
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: Map size 13 2
+[2018.04.14-14.28.08:509][594]LogTemp: Warning: Generating Map
+[2018.04.14-14.28.08:514][594]LogWorld: Bringing up level for play took: 0.008449
+[2018.04.14-14.28.08:516][594]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.478
+[2018.04.14-14.28.08:517][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.09:271][597]LogTemp: Warning: BlockHit
+[2018.04.14-14.28.14:024][666]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.14:080][666]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.15:116][681]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.14-14.28.15:183][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.15:183][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-14.28.15:183][681]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 15, 2018, 4:28:15 AM)
+[2018.04.14-14.28.15:184][681]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.04.14-14.28.15:190][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006200s)
+[2018.04.14-14.28.15:191][681]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-14.28.15:192][681]LogPlayLevel: PIE: World Init took: (0.002300s)
+[2018.04.14-14.28.15:193][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.009052s)
+[2018.04.14-14.28.15:261][681]LogInit: XAudio2 using 'Digital Output (DESKTOP-HTJHSD1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.14-14.28.15:271][681]LogInit: FAudioDevice initialized.
+[2018.04.14-14.28.15:315][681]LogLoad: Game class is 'longloomGameMode'
+[2018.04.14-14.28.15:318][681]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.04.14-21.28.15
+[2018.04.14-14.28.15:319][681]LogTemp: Warning: Map data: ../../../../../../Users/teera/Documents/Unreal Projects/longloom/defaultMap.csv 
+0,1,0,0,0,1,0,0,0,0,0,0,0
+0,0,0,1,0,0,0,0,0,0,0,0,0
+[2018.04.14-14.28.15:319][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:319][681]LogTemp: Warning: 1
+[2018.04.14-14.28.15:319][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:319][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:319][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:319][681]LogTemp: Warning: 1
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 1
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:320][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:321][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:321][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:321][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:321][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:323][681]LogTemp: Warning: 0
+[2018.04.14-14.28.15:323][681]LogTemp: Warning: Map size 13 2
+[2018.04.14-14.28.15:323][681]LogTemp: Warning: Generating Map
+[2018.04.14-14.28.15:330][681]LogWorld: Bringing up level for play took: 0.014542
+[2018.04.14-14.28.15:333][681]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.705
+[2018.04.14-14.28.15:333][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.15:898][692]LogTemp: Warning: BlockHit
+[2018.04.14-14.28.18:288][737]LogTemp: Warning: BlockHit
+[2018.04.14-14.28.18:537][740]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.18:596][740]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.19:376][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.28.29:546][878]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.04.14-14.28.30:067][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.14-14.28.30:448][883]LogSavePackage: Save=240.19ms
+[2018.04.14-14.28.30:448][883]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/2DSideScrollerExampleMap2783E20B4233C250F1571C91B5BAD3AE.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2018.04.14-14.28.30:456][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2018.04.14-14.28.30:520][883]LogSavePackage: Save=10.15ms
+[2018.04.14-14.28.30:520][883]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/2DSideScrollerExampleMap_BuiltDa8AC4A2A142E2B2D4BB4F09BAD27A1BD1.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2018.04.14-14.28.30:523][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.04.14-14.28.33:486][918]LogSlate: Took 0.019503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.14-14.28.35:406][942]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.14-14.28.35:500][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.35:503][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-14.28.35:504][942]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 15, 2018, 4:28:35 AM)
+[2018.04.14-14.28.35:504][942]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.04.14-14.28.35:511][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006249s)
+[2018.04.14-14.28.35:514][942]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.04.14-14.28.35:515][942]LogPlayLevel: PIE: World Init took: (0.002420s)
+[2018.04.14-14.28.35:515][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.010800s)
+[2018.04.14-14.28.35:590][942]LogInit: XAudio2 using 'Digital Output (DESKTOP-HTJHSD1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.14-14.28.35:602][942]LogInit: FAudioDevice initialized.
+[2018.04.14-14.28.35:653][942]LogLoad: Game class is 'longloomGameMode'
+[2018.04.14-14.28.35:655][942]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.04.14-21.28.35
+[2018.04.14-14.28.35:656][942]LogTemp: Warning: Map data: ../../../../../../Users/teera/Documents/Unreal Projects/longloom/defaultMap.csv 
+0,1,0,0,0,1,0,0,0,0,0,0,0
+0,0,0,1,0,0,0,0,0,0,0,0,0
+[2018.04.14-14.28.35:657][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:657][942]LogTemp: Warning: 1
+[2018.04.14-14.28.35:657][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:657][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:657][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:657][942]LogTemp: Warning: 1
+[2018.04.14-14.28.35:658][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:658][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:658][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:658][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:658][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:658][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:659][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:659][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:659][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:659][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:659][942]LogTemp: Warning: 1
+[2018.04.14-14.28.35:660][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:660][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:660][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:660][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:660][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:660][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:660][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:661][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:661][942]LogTemp: Warning: 0
+[2018.04.14-14.28.35:661][942]LogTemp: Warning: Map size 13 2
+[2018.04.14-14.28.35:661][942]LogTemp: Warning: Generating Map
+[2018.04.14-14.28.35:668][942]LogWorld: Bringing up level for play took: 0.014283
+[2018.04.14-14.28.35:670][942]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.368
+[2018.04.14-14.28.35:671][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.36:270][951]LogTemp: Warning: BlockHit
+[2018.04.14-14.28.38:441][991]LogTemp: Warning: BlockHit
+[2018.04.14-14.28.39:675][ 16]LogTemp: Warning: BlockHit
+[2018.04.14-14.28.41:118][ 46]LogTemp: Warning: BlockHit
+[2018.04.14-14.28.41:414][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.41:535][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.04.14-14.28.44:189][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.33.27:242][264]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'USceneComponent::GetChildrenComponents' [Element not found.]
+[2018.04.14-14.36.31:958][700]LogEditorTransaction: Undo Add Component Nodes
+[2018.04.14-14.36.33:000][721]LogEditorTransaction: Redo Add Component Nodes
+[2018.04.14-14.39.03:582][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.026
+[2018.04.14-14.39.03:586][ 29]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScroller/BlockBP] ([1] browsable assets)...
+[2018.04.14-14.39.03:587][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/BlockBP]
+[2018.04.14-14.39.03:635][ 29]LogSavePackage: Save=19.79ms
+[2018.04.14-14.39.03:635][ 29]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockBP_Auto13B6308EC496E0769342B1F81971CE555.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/Autosaves/Game/2DSideScroller/BlockBP_Auto1.uasset'
+[2018.04.14-14.39.03:637][ 29]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/Autosaves/Game/2DSideScroller/BlockBP_Auto1.uasset
+[2018.04.14-14.39.03:637][ 29]LogFileHelpers: Auto-saving content packages took 0.053
+[2018.04.14-14.41.58:401][128]LogSlate: Window 'BlockBP*' being destroyed
+[2018.04.14-14.41.58:442][128]LogSlate: Window 'BlockBP*' being destroyed
+[2018.04.14-14.42.18:967][261]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.04.14-14.42.25:297][381]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.14-14.44.25:126][440]LogSlate: Window 'BlockBP*' being destroyed
+[2018.04.14-14.44.25:170][440]LogSlate: Window 'BlockBP*' being destroyed
+[2018.04.14-14.44.47:998][689]LogSlate: Window 'Message' being destroyed
+[2018.04.14-14.44.48:008][689]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/teera/Downloads/30223266_1809557639108127_488774142_o.png)
+[2018.04.14-14.44.49:579][689]LogSlate: Window 'Message' being destroyed
+[2018.04.14-14.44.50:969][689]LogSlate: Window 'Message' being destroyed
+[2018.04.14-14.44.50:974][689]LogAssetTools: Warning: Failed to import '../../../../../../Users/teera/Downloads/30223266_1809557639108127_488774142_o.png'. Failed to create asset '/Game/2DSideScroller/Sprites/30223266_1809557639108127_488774142_o'.
+Please see Output Log for details.
+[2018.04.14-14.44.55:327][787]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.04.14-14.45.14:454][168]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.14-14.45.19:750][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.45.19:823][284]LogSlate: Window '30223266_1809557639108127_488774142_o' being destroyed
+[2018.04.14-14.45.19:864][284]LogSlate: Window '30223266_1809557639108127_488774142_o' being destroyed
+[2018.04.14-14.45.46:743][871]Cmd: EDIT CUT
+[2018.04.14-14.45.46:785][871]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.04.14-14.45.46:871][871]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2018.04.14-14.45.47:889][898]Cmd: TRANSACTION UNDO
+[2018.04.14-14.45.47:890][898]LogEditorTransaction: Undo Cut
+[2018.04.14-14.46.01:794][164]LogSlate: Window 'Delete Assets' being destroyed
+[2018.04.14-14.46.29:953][681]LogRenderer: Reallocating scene render targets to support 1208x924 Format 10 NumSamples 1 (Frame:186).
+[2018.04.14-14.46.33:279][716]LogSlate: Window 'BlockTile*' being destroyed
+[2018.04.14-14.46.33:325][716]LogSlate: Window 'BlockTile*' being destroyed
+[2018.04.14-14.46.43:814][925]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.46.44:488][925]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.46.44:502][925]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.46.44:502][925]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.46.44:503][925]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.46.55:171][ 46]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.04.14-14.46.55:178][ 46]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.14-14.46.55:888][ 47]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.04.14-14.46.56:594][ 49]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.04.14-14.46.58:318][ 74]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.04.14-14.46.58:699][ 79]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.04.14-14.47.02:778][128]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.02:811][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.14-14.47.04:938][151]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.47.18:353][311]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.47.18:778][314]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.47.19:026][317]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.19:075][317]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.14-14.47.19:110][317]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.04.14-14.47.19:117][317]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.21:989][349]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.27:524][417]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.27:559][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.14-14.47.34:389][486]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.04.14-14.47.35:468][495]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.35:514][495]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.14-14.47.35:539][495]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.14-14.47.35:560][495]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.37:359][515]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.04.14-14.47.41:978][573]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.43:146][587]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.43:191][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.14-14.47.43:238][587]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.44:224][600]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.44:268][600]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.14-14.47.44:310][600]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.47:034][631]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.04.14-14.47.50:830][680]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.14-14.47.50:890][680]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.47.52:346][695]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.48.00:166][791]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.48.01:067][793]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.48.01:417][794]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.04.14-14.48.02:116][796]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.14-14.48.02:116][796]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.04.14-14.48.02:120][796]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.04.14-14.48.03:136][798]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.04.14-14.48.03:137][798]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.04.14-14.48.03:480][799]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.04.14-14.48.05:160][803]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.04.14-14.48.06:067][805]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.04.14-14.48.06:068][805]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.04.14-14.48.06:960][807]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.04.14-14.48.06:960][807]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.14-14.48.08:383][811]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.04.14-14.48.09:310][813]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.04.14-14.48.09:310][813]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.04.14-14.48.09:311][813]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.04.14-14.48.09:312][813]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.14-14.48.33:802][948]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.48.33:855][948]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.48.33:855][948]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.48.33:856][948]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.48.33:856][948]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.14-14.48.38:879][  6]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.48.38:930][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.14-14.48.38:974][  6]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.48.41:738][ 32]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.04.14-14.48.42:125][ 33]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.14-14.48.42:492][ 34]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.48.42:895][ 35]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.48.42:895][ 35]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.48.42:895][ 35]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.04.14-14.48.45:323][ 60]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.14-14.48.45:327][ 60]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.04.14-14.48.45:617][ 61]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.04.14-14.48.45:998][ 62]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.04.14-14.48.46:339][ 63]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.04.14-14.48.46:339][ 63]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.04.14-14.48.47:036][ 65]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.04.14-14.48.47:362][ 70]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.04.14-14.48.48:274][ 79]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.04.14-14.48.54:480][162]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.04.14-14.48.57:198][194]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.14-14.48.58:684][213]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.04.14-14.48.58:710][213]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.48.58:763][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.14-14.49.04:519][283]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.04.14-14.49.05:057][291]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.14-14.49.05:614][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.49.07:569][321]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.08:799][337]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.08:803][337]LogMaterial: Warning: /Engine/Transient.BlockTileMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.14-14.49.08:805][337]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Alpha, should be Color for /Game/2DSideScroller/Sprites/30223266_1809557639108127_488774142_o.30223266_1809557639108127_488774142_o
+[2018.04.14-14.49.08:831][337]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.14-14.49.08:874][337]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.08:876][337]LogMaterial: Warning: /Engine/Transient.BlockTileMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.14-14.49.08:877][337]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Alpha, should be Color for /Game/2DSideScroller/Sprites/30223266_1809557639108127_488774142_o.30223266_1809557639108127_488774142_o
+[2018.04.14-14.49.08:894][337]MaterialEditorStats: Error: [SM5] (Node TextureSample) TextureSample> Sampler type is Alpha, should be Color for /Game/2DSideScroller/Sprites/30223266_1809557639108127_488774142_o.30223266_1809557639108127_488774142_o
+[2018.04.14-14.49.10:393][355]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.10:397][355]LogMaterial: Warning: /Engine/Transient.BlockTileMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.14-14.49.10:399][355]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Alpha, should be Color for /Game/2DSideScroller/Sprites/30223266_1809557639108127_488774142_o.30223266_1809557639108127_488774142_o
+[2018.04.14-14.49.11:228][365]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.11:230][365]LogMaterial: Warning: /Engine/Transient.BlockTileMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.14-14.49.11:233][365]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Grayscale, should be Color for /Game/2DSideScroller/Sprites/30223266_1809557639108127_488774142_o.30223266_1809557639108127_488774142_o
+[2018.04.14-14.49.11:251][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.14-14.49.11:285][365]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.11:287][365]LogMaterial: Warning: /Engine/Transient.BlockTileMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.14-14.49.11:288][365]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Grayscale, should be Color for /Game/2DSideScroller/Sprites/30223266_1809557639108127_488774142_o.30223266_1809557639108127_488774142_o
+[2018.04.14-14.49.11:305][365]MaterialEditorStats: Error: [SM5] (Node TextureSample) TextureSample> Sampler type is Grayscale, should be Color for /Game/2DSideScroller/Sprites/30223266_1809557639108127_488774142_o.30223266_1809557639108127_488774142_o
+[2018.04.14-14.49.12:348][379]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.12:352][379]LogMaterial: Warning: /Engine/Transient.BlockTileMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.14-14.49.12:353][379]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Grayscale, should be Color for /Game/2DSideScroller/Sprites/30223266_1809557639108127_488774142_o.30223266_1809557639108127_488774142_o
+[2018.04.14-14.49.13:300][392]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.13:361][392]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.49.13:362][392]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.49.13:362][392]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.49.13:369][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.14-14.49.13:418][392]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.21:890][497]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.04.14-14.49.22:222][501]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.14-14.49.22:365][503]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.49.26:136][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.49.26:210][550]LogMaterialEditor: Applying material BlockTileMaterial
+[2018.04.14-14.49.29:511][550]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.49.29:511][550]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.49.29:511][550]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.04.14-14.49.29:511][550]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.14-14.49.29:512][550]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.04.14-14.49.29:512][550]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.04.14-14.49.29:512][550]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.04.14-14.49.29:512][550]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.04.14-14.49.29:512][550]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.04.14-14.49.29:513][550]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.04.14-14.49.29:513][550]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.04.14-14.49.29:513][550]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.04.14-14.49.29:545][550]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.29:643][550]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.29:681][550]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.49.29:769][550]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BlockTileMaterial, compiling. 
+[2018.04.14-14.49.33:053][550]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.04.14-14.49.33:054][550]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.04.14-14.49.33:054][550]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.04.14-14.49.33:054][550]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.04.14-14.49.33:054][550]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.04.14-14.49.33:054][550]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.04.14-14.49.33:055][550]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.04.14-14.49.33:055][550]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.04.14-14.49.33:055][550]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.04.14-14.49.33:055][550]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.04.14-14.49.33:055][550]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.04.14-14.49.33:056][550]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.04.14-14.49.33:056][550]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.04.14-14.49.33:056][550]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.04.14-14.49.33:056][550]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.04.14-14.49.33:057][550]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.04.14-14.49.33:057][550]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.04.14-14.49.33:057][550]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.04.14-14.49.33:057][550]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.14-14.49.33:057][550]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.14-14.49.33:060][550]TextureStreamingBuild: Display: Compiling optional shaders took 3.305 seconds.
+[2018.04.14-14.49.46:600][695]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.14-14.49.48:185][716]LogSlate: Window 'BlockTileMaterial*' being destroyed
+[2018.04.14-14.49.48:212][716]LogSlate: Window 'BlockTileMaterial*' being destroyed
+[2018.04.14-14.49.59:715][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/BlockTile" FILE="../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockTile.uasset" SILENT=true
+[2018.04.14-14.49.59:751][852]LogSavePackage: Save=26.49ms
+[2018.04.14-14.49.59:752][852]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockTile83F9CF1549B2FF801671FDAC29CBE613.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockTile.uasset'
+[2018.04.14-14.49.59:771][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockTile.uasset
+[2018.04.14-14.50.02:456][881]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.14-14.50.06:747][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.50.20:035][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.50.20:286][ 76]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.14-14.50.20:346][ 76]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.50.20:669][ 76]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.14-14.50.20:706][ 76]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.14-14.50.20:778][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.14-14.50.21:420][ 80]LogMaterialEditor: Saving and Compiling material BlockTileMaterial
+[2018.04.14-14.50.24:099][ 80]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.04.14-14.50.24:099][ 80]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.14-14.50.24:099][ 80]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.50.24:100][ 80]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.50.24:100][ 80]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.50.24:100][ 80]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.04.14-14.50.24:100][ 80]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.14-14.50.24:189][ 80]LogSavePackage: Save=31.72ms
+[2018.04.14-14.50.24:189][ 80]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockTileMaterialE7AEF3264B1216076FD25FBC9B79C950.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/Materials/BlockTileMaterial.uasset'
+[2018.04.14-14.50.24:195][ 80]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/Materials/BlockTileMaterial.uasset
+[2018.04.14-14.50.27:145][116]LogMaterialEditor: Saving and Compiling material BlockTileMaterial
+[2018.04.14-14.50.27:280][116]LogSavePackage: Save=29.46ms
+[2018.04.14-14.50.27:280][116]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockTileMaterial26E654B841F368D9468A0AB9618182A6.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/Materials/BlockTileMaterial.uasset'
+[2018.04.14-14.50.27:285][116]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/Materials/BlockTileMaterial.uasset
+[2018.04.14-14.50.33:870][190]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.04.14-14.50.36:400][220]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.04.14-14.50.37:036][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.50.38:365][243]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.14-14.50.38:407][243]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.14-14.50.39:717][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.50.39:836][259]LogMaterialEditor: Saving and Compiling material BlockTileMaterial
+[2018.04.14-14.50.39:996][259]LogSavePackage: Save=47.22ms
+[2018.04.14-14.50.39:997][259]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockTileMaterialD3D0000C48BDB785D8ECC3A7BC5EAD88.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/Materials/BlockTileMaterial.uasset'
+[2018.04.14-14.50.40:006][259]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/Materials/BlockTileMaterial.uasset
+[2018.04.14-14.50.51:226][393]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.14-14.50.52:784][410]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.50.54:351][428]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.50.55:393][439]LogMaterialEditor: Saving and Compiling material BlockTileMaterial
+[2018.04.14-14.50.56:909][439]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.50.56:909][439]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.04.14-14.50.56:909][439]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.14-14.50.56:909][439]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.04.14-14.50.56:938][439]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.14-14.50.57:002][439]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.50.57:002][439]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.50.57:063][439]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.50.57:099][439]LogMaterial: Missing cached shader map for material BlockTileMaterial, compiling. 
+[2018.04.14-14.50.57:182][439]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BlockTileMaterial, compiling. 
+[2018.04.14-14.50.59:986][439]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.04.14-14.50.59:986][439]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.04.14-14.50.59:986][439]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.04.14-14.50.59:987][439]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.04.14-14.50.59:987][439]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.04.14-14.50.59:987][439]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.04.14-14.50.59:987][439]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.04.14-14.50.59:987][439]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.04.14-14.50.59:988][439]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.04.14-14.50.59:988][439]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.04.14-14.50.59:988][439]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.04.14-14.50.59:989][439]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.04.14-14.50.59:989][439]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.04.14-14.50.59:989][439]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.04.14-14.50.59:989][439]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.04.14-14.50.59:990][439]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.04.14-14.50.59:990][439]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.14-14.50.59:990][439]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.14-14.50.59:993][439]TextureStreamingBuild: Display: Compiling optional shaders took 2.822 seconds.
+[2018.04.14-14.51.04:502][439]LogSavePackage: Save=26.46ms
+[2018.04.14-14.51.04:502][439]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockTileMaterial93B8C5E2458619B5B7FD97917FC0017B.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/Materials/BlockTileMaterial.uasset'
+[2018.04.14-14.51.04:508][439]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/Materials/BlockTileMaterial.uasset
+[2018.04.14-14.51.04:523][439]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.04.14-14.51.04:524][439]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.04.14-14.51.04:524][439]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.04.14-14.51.04:524][439]MaterialEditorStats: Texture samplers: 4/16
+[2018.04.14-14.51.04:525][439]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.14-14.51.12:023][512]LogSlate: Window 'BlockTileMaterial' being destroyed
+[2018.04.14-14.51.12:050][512]LogSlate: Window 'BlockTileMaterial' being destroyed
+[2018.04.14-14.51.24:821][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.51.24:932][708]LogSlate: Window 'BlockTile*' being destroyed
+[2018.04.14-14.51.24:960][708]LogSlate: Window 'BlockTile*' being destroyed
+[2018.04.14-14.51.34:303][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.51.44:677][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.51.52:719][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.14-14.51.52:754][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/BlockTile" FILE="../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockTile.uasset" SILENT=true
+[2018.04.14-14.51.52:808][ 62]LogSavePackage: Save=26.10ms
+[2018.04.14-14.51.52:808][ 62]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockTile6D796E184BD3860613B626B6DB8DE3D1.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockTile.uasset'
+[2018.04.14-14.51.52:819][ 62]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockTile.uasset
+[2018.04.14-14.52.05:930][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.52.06:218][214]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.14-14.52.06:552][214]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.14-14.52.06:591][214]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.14-14.52.06:626][214]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.52.06:626][214]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.52.06:627][214]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.52.06:659][214]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.14-14.52.07:780][224]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.14-14.52.10:805][245]LogSlate: Window 'Message' being destroyed
+[2018.04.14-14.52.10:820][245]LogSlate: Window 'BlockTileMaterial' being destroyed
+[2018.04.14-14.52.10:823][245]LogSlate: Window 'BlockTileMaterial' being destroyed
+[2018.04.14-14.52.14:475][245]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.04.14-14.52.14:475][245]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.14-14.52.14:476][245]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.04.14-14.52.14:476][245]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.04.14-14.52.14:476][245]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.04.14-14.52.14:476][245]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.04.14-14.52.14:477][245]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.14-14.52.14:477][245]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.04.14-14.52.14:477][245]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.04.14-14.52.14:477][245]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.04.14-14.52.14:478][245]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.04.14-14.52.14:478][245]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.04.14-14.52.14:478][245]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.04.14-14.52.14:478][245]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.04.14-14.52.14:479][245]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.04.14-14.52.14:479][245]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.04.14-14.52.14:479][245]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.14-14.52.14:479][245]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.04.14-14.52.49:001][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.53.02:567][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.14-14.53.31:524][993]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.036
+[2018.04.14-14.53.31:526][993]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScroller/BlockBP] ([1] browsable assets)...
+[2018.04.14-14.53.31:526][993]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/BlockBP]
+[2018.04.14-14.53.31:578][993]LogSavePackage: Save=29.63ms
+[2018.04.14-14.53.31:578][993]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockBP_Auto2909504E94E39FA34559C54AB313C277D.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/Autosaves/Game/2DSideScroller/BlockBP_Auto2.uasset'
+[2018.04.14-14.53.31:582][993]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/Autosaves/Game/2DSideScroller/BlockBP_Auto2.uasset
+[2018.04.14-14.53.31:584][993]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScroller/BlockTile] ([1] browsable assets)...
+[2018.04.14-14.53.31:584][993]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/BlockTile]
+[2018.04.14-14.53.31:601][993]LogSavePackage: Save=8.59ms
+[2018.04.14-14.53.31:602][993]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockTile_Auto2D5D21D4144EC17637C00DAB31DF8F428.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/Autosaves/Game/2DSideScroller/BlockTile_Auto2.uasset'
+[2018.04.14-14.53.31:608][993]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/Autosaves/Game/2DSideScroller/BlockTile_Auto2.uasset
+[2018.04.14-14.53.31:610][993]LogFileHelpers: Auto-saving content packages took 0.085
+[2018.04.14-14.54.56:648][ 38]LogRenderer: Reallocating scene render targets to support 1960x1644 Format 10 NumSamples 1 (Frame:691).
+[2018.04.14-14.55.11:105][ 38]LogRenderer: Reallocating scene render targets to support 2020x1644 Format 10 NumSamples 1 (Frame:24881).
+[2018.04.14-14.55.57:125][ 81]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{87de7367-cf0d-4d12-a85d-cc231490cfcd} was removed. Shutting down audio device.
+[2018.04.14-14.55.57:126][ 81]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.15-15.38.09:241][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.212
+[2018.04.15-15.39.34:793][210]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.04.15-15.39.37:520][229]LogSlate: Window 'BlockTile*' being destroyed
+[2018.04.15-15.39.37:670][229]LogSlate: Window 'BlockTile*' being destroyed
+[2018.04.15-15.39.39:592][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/BlockTile" FILE="../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockTile.uasset" SILENT=true
+[2018.04.15-15.39.39:673][243]LogSavePackage: Save=35.64ms
+[2018.04.15-15.39.39:674][243]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockTile9E8A1F0640BA06FEA9D852B50DF1781F.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockTile.uasset'
+[2018.04.15-15.39.39:700][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockTile.uasset
+[2018.04.15-15.39.40:967][252]LogSavePackage: Save=523.64ms
+[2018.04.15-15.39.40:968][252]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/2DSideScrollerExampleMap529F62824AD06E19C4ED8E8D0E9177FB.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2018.04.15-15.39.40:972][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2018.04.15-15.39.41:068][252]LogSavePackage: Save=6.79ms
+[2018.04.15-15.39.41:068][252]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/2DSideScrollerExampleMap_BuiltDa2B8564CC45EC626C18FCB0B582D55684.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2018.04.15-15.39.41:072][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.04.15-15.39.44:664][277]LogSlate: Window 'Save Content' being destroyed
+[2018.04.15-15.39.44:705][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/BlockBP" FILE="../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockBP.uasset" SILENT=true
+[2018.04.15-15.39.44:778][277]LogSavePackage: Save=45.89ms
+[2018.04.15-15.39.44:778][277]LogSavePackage: Moving '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Saved/BlockBP0C91E51E4CE00C1FE9FA408DAF1402CD.tmp' to '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockBP.uasset'
+[2018.04.15-15.39.44:796][277]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/2DSideScroller/BlockBP.uasset
+[2018.04.15-15.39.44:988][277]LogSlate: Window 'longloom - Unreal Editor' being destroyed
+[2018.04.15-15.39.44:990][277]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.15-15.39.44:991][277]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.15-15.39.46:923][278]Cmd: QUIT_EDITOR
+[2018.04.15-15.39.47:232][278]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.04.15-15.39.47:235][278]LogExit: Preparing to exit.
+[2018.04.15-15.39.48:397][278]LogDirectoryWatcher: A directory notification for 'C:/Users/teera/Documents/Unreal Projects/longloom/Content/' was aborted.
+[2018.04.15-15.39.48:655][278]LogExit: Editor shut down
+[2018.04.15-15.39.48:762][278]LogExit: Transaction tracking system shut down
+[2018.04.15-15.39.48:999][278]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.15-15.39.48:999][278]LogDirectoryWatcher: A directory notification for '../../../../../../Users/teera/Documents/Unreal Projects/longloom/Content/' was aborted.
+[2018.04.15-15.39.48:999][278]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.15-15.39.48:999][278]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.04.15-15.39.48:999][278]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.15-15.39.48:999][278]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.15-15.39.49:000][278]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.15-15.39.49:000][278]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.15-15.39.49:471][278]LogExit: Object subsystem successfully closed.
+[2018.04.15-15.39.49:527][278]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.04.15-15.39.49:545][278]LogD3D11RHI: Shutdown
+[2018.04.15-15.39.49:545][278]LogD3D11RHI: CleanupD3DDevice
+[2018.04.15-15.39.49:665][278]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.15-15.39.49:725][278]LogModuleManager: Shutting down and abandoning module TextureEditor (590)
+[2018.04.15-15.39.49:725][278]LogModuleManager: Shutting down and abandoning module longloom (588)
+[2018.04.15-15.39.49:725][278]LogModuleManager: Shutting down and abandoning module BlueprintGraph (584)
+[2018.04.15-15.39.49:725][278]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (580)
+[2018.04.15-15.39.49:725][278]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.04.15-15.39.49:725][278]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2018.04.15-15.39.49:726][278]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.04.15-15.39.49:726][278]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.04.15-15.39.49:727][278]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.04.15-15.39.49:743][278]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.04.15-15.39.49:743][278]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.04.15-15.39.49:743][278]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.04.15-15.39.49:744][278]LogDirectoryWatcher: A directory notification for 'C:/Users/teera/Documents/Unreal Projects/longloom/Content/Collections/' was aborted.
+[2018.04.15-15.39.49:744][278]LogDirectoryWatcher: A directory notification for 'C:/Users/teera/Documents/Unreal Projects/longloom/Content/Developers/teera/Collections/' was aborted.
+[2018.04.15-15.39.49:744][278]LogDirectoryWatcher: A directory notification for 'C:/Users/teera/Documents/Unreal Projects/longloom/Saved/Collections/' was aborted.
+[2018.04.15-15.39.49:744][278]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.04.15-15.39.49:745][278]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.04.15-15.39.49:745][278]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.04.15-15.39.49:746][278]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.04.15-15.39.49:746][278]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.04.15-15.39.49:746][278]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.04.15-15.39.49:746][278]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.04.15-15.39.49:746][278]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.04.15-15.39.49:746][278]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.04.15-15.39.49:746][278]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.04.15-15.39.49:747][278]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.04.15-15.39.49:747][278]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.04.15-15.39.49:747][278]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.04.15-15.39.49:748][278]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.04.15-15.39.49:748][278]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.04.15-15.39.49:748][278]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.04.15-15.39.49:749][278]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.04.15-15.39.49:752][278]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.04.15-15.39.49:753][278]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.04.15-15.39.49:754][278]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.04.15-15.39.49:754][278]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.04.15-15.39.49:754][278]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.04.15-15.39.49:755][278]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.04.15-15.39.49:755][278]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.04.15-15.39.49:755][278]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.04.15-15.39.49:756][278]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.04.15-15.39.49:757][278]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.04.15-15.39.49:758][278]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.04.15-15.39.49:759][278]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.04.15-15.39.49:761][278]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.04.15-15.39.49:762][278]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.04.15-15.39.49:762][278]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.04.15-15.39.49:762][278]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.04.15-15.39.49:762][278]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.04.15-15.39.50:443][278]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.04.15-15.39.50:443][278]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.04.15-15.39.50:443][278]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.04.15-15.39.50:443][278]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.04.15-15.39.50:444][278]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.04.15-15.39.50:444][278]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.04.15-15.39.50:445][278]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.04.15-15.39.50:445][278]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.04.15-15.39.50:445][278]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.04.15-15.39.50:445][278]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.04.15-15.39.50:445][278]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.04.15-15.39.50:446][278]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.04.15-15.39.50:446][278]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.04.15-15.39.50:446][278]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.04.15-15.39.50:447][278]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.04.15-15.39.50:448][278]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.04.15-15.39.50:448][278]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.04.15-15.39.50:449][278]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.04.15-15.39.50:450][278]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.04.15-15.39.50:450][278]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.04.15-15.39.50:450][278]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.04.15-15.39.50:511][278]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.04.15-15.39.50:511][278]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.04.15-15.39.50:512][278]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.04.15-15.39.50:514][278]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.04.15-15.39.50:515][278]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.04.15-15.39.50:515][278]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.04.15-15.39.50:516][278]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.04.15-15.39.50:517][278]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.04.15-15.39.50:517][278]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.04.15-15.39.50:517][278]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.04.15-15.39.50:559][278]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.04.15-15.39.50:559][278]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.04.15-15.39.50:566][278]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.04.15-15.39.50:567][278]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.04.15-15.39.50:567][278]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.04.15-15.39.50:569][278]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.04.15-15.39.50:569][278]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.04.15-15.39.50:570][278]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.04.15-15.39.50:573][278]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.04.15-15.39.50:573][278]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.04.15-15.39.50:573][278]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.04.15-15.39.50:574][278]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.04.15-15.39.50:574][278]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.04.15-15.39.50:574][278]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.04.15-15.39.50:574][278]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.04.15-15.39.50:574][278]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.04.15-15.39.50:574][278]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.04.15-15.39.50:574][278]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.04.15-15.39.50:575][278]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.04.15-15.39.50:575][278]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.04.15-15.39.50:726][278]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.04.15-15.39.50:726][278]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.04.15-15.39.50:726][278]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.04.15-15.39.50:726][278]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.04.15-15.39.50:726][278]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.04.15-15.39.50:726][278]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.04.15-15.39.50:726][278]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.04.15-15.39.50:727][278]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.04.15-15.39.50:727][278]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.04.15-15.39.50:727][278]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.04.15-15.39.50:727][278]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.04.15-15.39.50:727][278]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.04.15-15.39.50:727][278]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.04.15-15.39.50:728][278]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.04.15-15.39.50:728][278]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.04.15-15.39.50:728][278]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.04.15-15.39.50:728][278]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.04.15-15.39.50:740][278]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.04.15-15.39.50:740][278]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.04.15-15.39.50:740][278]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.04.15-15.39.50:740][278]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.04.15-15.39.50:740][278]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.04.15-15.39.50:740][278]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.04.15-15.39.50:740][278]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.04.15-15.39.50:740][278]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.04.15-15.39.50:742][278]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.04.15-15.39.50:743][278]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.04.15-15.39.50:743][278]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.04.15-15.39.50:743][278]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.04.15-15.39.50:743][278]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.04.15-15.39.50:744][278]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.04.15-15.39.50:744][278]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.04.15-15.39.50:744][278]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.04.15-15.39.50:745][278]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.04.15-15.39.50:746][278]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.04.15-15.39.50:747][278]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.04.15-15.39.50:747][278]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.04.15-15.39.50:747][278]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.04.15-15.39.50:747][278]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.04.15-15.39.50:747][278]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.04.15-15.39.50:748][278]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.04.15-15.39.50:748][278]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.04.15-15.39.50:748][278]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.04.15-15.39.50:749][278]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.04.15-15.39.50:749][278]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.04.15-15.39.50:749][278]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.04.15-15.39.50:749][278]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.04.15-15.39.50:749][278]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.04.15-15.39.50:749][278]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.04.15-15.39.50:749][278]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.04.15-15.39.50:850][278]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.04.15-15.39.50:950][278]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.04.15-15.39.50:951][278]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.04.15-15.39.50:951][278]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.04.15-15.39.50:951][278]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.04.15-15.39.50:951][278]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.04.15-15.39.50:952][278]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.04.15-15.39.50:961][278]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.04.15-15.39.50:962][278]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.04.15-15.39.50:964][278]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.04.15-15.39.50:964][278]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.04.15-15.39.50:964][278]LogDirectoryWatcher: A directory notification for 'C:/Users/teera/Documents/Unreal Projects/longloom/Binaries/Win64' was aborted.
+[2018.04.15-15.39.50:965][278]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.04.15-15.39.50:976][278]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.04.15-15.39.50:976][278]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.04.15-15.39.50:976][278]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.04.15-15.39.50:977][278]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.04.15-15.39.51:232][278]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.04.15-15.39.51:232][278]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.04.15-15.39.51:232][278]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.04.15-15.39.51:240][278]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.04.15-15.39.51:246][278]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.04.15-15.39.51:246][278]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.04.15-15.39.51:246][278]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.04.15-15.39.51:247][278]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.04.15-15.39.51:247][278]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.04.15-15.39.51:247][278]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.04.15-15.39.51:247][278]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.04.15-15.39.51:248][278]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.04.15-15.39.51:248][278]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.04.15-15.39.51:248][278]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.04.15-15.39.51:249][278]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.04.15-15.39.51:249][278]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.04.15-15.39.51:250][278]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.04.15-15.39.51:250][278]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.04.15-15.39.51:251][278]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.04.15-15.39.51:252][278]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.04.15-15.39.51:253][278]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.04.15-15.39.51:253][278]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.04.15-15.39.51:254][278]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.04.15-15.39.51:254][278]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.04.15-15.39.51:267][278]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.04.15-15.39.51:267][278]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.04.15-15.39.51:267][278]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.04.15-15.39.51:267][278]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.04.15-15.39.51:267][278]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.04.15-15.39.51:267][278]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.04.15-15.39.51:267][278]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.04.15-15.39.51:267][278]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.04.15-15.39.51:267][278]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.04.15-15.39.51:268][278]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.04.15-15.39.51:268][278]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.04.15-15.39.51:269][278]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.04.15-15.39.51:269][278]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.04.15-15.39.51:269][278]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.04.15-15.39.51:270][278]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.04.15-15.39.51:270][278]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.04.15-15.39.51:283][278]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.04.15-15.39.51:311][278]LogDerivedDataCache: Shutdown
+[2018.04.15-15.39.51:311][278]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.04.15-15.39.51:311][278]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.04.15-15.39.51:312][278]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.04.15-15.39.51:312][278]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.04.15-15.39.51:312][278]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.04.15-15.39.51:312][278]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.04.15-15.39.51:312][278]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.04.15-15.39.51:313][278]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.04.15-15.39.51:313][278]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.04.15-15.39.51:313][278]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.04.15-15.39.51:313][278]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.04.15-15.39.51:314][278]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.04.15-15.39.51:314][278]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.04.15-15.39.51:314][278]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.04.15-15.39.51:314][278]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.04.15-15.39.51:314][278]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.04.15-15.39.51:315][278]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.04.15-15.39.51:315][278]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.04.15-15.39.51:316][278]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.04.15-15.39.51:316][278]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.04.15-15.39.51:316][278]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.04.15-15.39.51:316][278]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.04.15-15.39.51:317][278]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.04.15-15.39.51:317][278]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.04.15-15.39.51:317][278]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.04.15-15.39.51:317][278]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.04.15-15.39.51:317][278]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.04.15-15.39.51:317][278]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.04.15-15.39.51:317][278]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.04.15-15.39.51:317][278]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.04.15-15.39.51:317][278]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.04.15-15.39.51:318][278]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.04.15-15.39.51:318][278]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.04.15-15.39.51:318][278]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.04.15-15.39.51:318][278]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.04.15-15.39.51:318][278]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.04.15-15.39.51:318][278]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.04.15-15.39.51:318][278]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.04.15-15.39.51:319][278]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.04.15-15.39.51:319][278]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.04.15-15.39.51:319][278]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.04.15-15.39.51:320][278]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.04.15-15.39.51:320][278]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.04.15-15.39.51:320][278]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.04.15-15.39.51:320][278]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.04.15-15.39.51:320][278]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.04.15-15.39.51:320][278]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.04.15-15.39.51:320][278]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.04.15-15.39.51:321][278]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.04.15-15.39.51:321][278]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.04.15-15.39.51:321][278]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.15-15.39.51:321][278]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.15-15.39.51:321][278]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.15-15.39.51:322][278]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.15-15.39.51:323][278]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.15-15.39.51:324][278]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.15-15.39.51:324][278]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B55A876AF-40EF-46FD-8F66-2BA76A071355%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=6e45247a4b1fc1f169d23daa9deb07a0%7Cbedcf0b05eb54759b472b8a4e8a4a881%7Ccf9f4c6e-1b41-4fde-a19c-749bb374c5d5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.15-15.39.51:352][278]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.15-15.39.51:368][278]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.15-15.39.51:369][278]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.15-15.39.51:371][278]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.15-15.39.51:371][278]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.15-15.39.51:374][278]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.15-15.39.51:374][278]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.15-15.39.51:374][278]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.15-15.39.51:382][278]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.15-15.39.51:382][278]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.15-15.39.51:382][278]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.15-15.39.51:382][278]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.15-15.39.51:382][278]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.15-15.39.51:382][278]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.15-15.39.51:382][278]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.15-15.39.51:382][278]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.15-15.39.51:382][278]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.15-15.39.51:383][278]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.15-15.39.51:383][278]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.15-15.39.51:391][278]LogExit: Exiting.
+[2018.04.15-15.39.51:436][278]Log file closed, 04/15/18 22:39:51

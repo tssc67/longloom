@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour {
     public Rigidbody2D rbody;
     public float speed;
     public float jumpPower;
-
     private float inputH;
     private float inputV;
     private string gadget;
@@ -18,7 +17,6 @@ public class PlayerController : MonoBehaviour {
     private float hp;
     private int direction;
     private float scale;
-
     
 	// Use this for initialization
 	void Start () {
@@ -40,19 +38,20 @@ public class PlayerController : MonoBehaviour {
         inputV = Input.GetAxis("Vertical");
         anim.SetFloat("inputH", inputH);
         anim.SetFloat("inputV", inputV);
-        float moveX = inputH * speed * Time.deltaTime;
-        float moveZ = inputV * jumpPower * Time.deltaTime;
-        rbody.MovePosition(rbody.position + new Vector2(moveX, 0));
-        if (inputH<0)
+        float moveX = inputH * speed;
+        //float moveZ = inputV * jumpPower * Time.deltaTime;
+        
+        
+        Vector3 m = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        if (m.x - rbody.position.x <0)
         {
             direction = -1;
-            transform.localScale = new Vector2(direction, transform.localScale.y);
         }
-        else if (inputH>0)
+        else
         {
             direction = 1;
-            transform.localScale = new Vector2(direction, transform.localScale.y);
         }
+        transform.localScale = new Vector2(direction, transform.localScale.y);
 
         //chatacter crouch when press key
         if (Input.GetKey(KeyCode.S))
@@ -60,20 +59,32 @@ public class PlayerController : MonoBehaviour {
             anim.SetBool("crouch", true);
         }
         else anim.SetBool("crouch", false);
+        float moveY = rbody.velocity.y;
+        if(Input.GetKey(KeyCode.Space))
+        {
+            if (!jump)
+            {
+                jump = true;
+                moveY = jumpPower;
+            }
+        }
 
-
-        //character hum when press space bar
-        if (Input.GetKey(KeyCode.Space))
+        if (jump)
         {
             anim.SetBool("jump", true);
-
         }
         else anim.SetBool("jump", false);
-
-        
-	}
+        rbody.velocity = new Vector3(moveX, moveY);
+    }
     public void SelectHandGadget(string gadget)
     {
         this.gadget = gadget;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Ground Hit");
+        jump = false;
+    }
 }
+
+

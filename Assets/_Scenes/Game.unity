@@ -218,7 +218,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-  m_TileRefreshArray: []
 --- !u!1 &1220371314
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,7 +323,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-  m_TileRefreshArray: []
 --- !u!1 &1225867827
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +428,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-  m_TileRefreshArray: []
 --- !u!1001 &1676019165
 Prefab:
   m_ObjectHideFlags: 0
@@ -473,6 +470,51 @@ Prefab:
     - target: {fileID: 1468351042565364, guid: 95604df91a3b6ae45871771284fe1a6a, type: 2}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 114559366711627530, guid: 95604df91a3b6ae45871771284fe1a6a,
+        type: 2}
+      propertyPath: jumpPower
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 61219082491579620, guid: 95604df91a3b6ae45871771284fe1a6a,
+        type: 2}
+      propertyPath: m_UsedByEffector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61219082491579620, guid: 95604df91a3b6ae45871771284fe1a6a,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0.028434992
+      objectReference: {fileID: 0}
+    - target: {fileID: 61219082491579620, guid: 95604df91a3b6ae45871771284fe1a6a,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.6670723
+      objectReference: {fileID: 0}
+    - target: {fileID: 61219082491579620, guid: 95604df91a3b6ae45871771284fe1a6a,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -0.21168137
+      objectReference: {fileID: 0}
+    - target: {fileID: 61219082491579620, guid: 95604df91a3b6ae45871771284fe1a6a,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.85663724
+      objectReference: {fileID: 0}
+    - target: {fileID: 61219082491579620, guid: 95604df91a3b6ae45871771284fe1a6a,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114559366711627530, guid: 95604df91a3b6ae45871771284fe1a6a,
+        type: 2}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 50055689263641404, guid: 95604df91a3b6ae45871771284fe1a6a,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95604df91a3b6ae45871771284fe1a6a, type: 2}
@@ -2096,17 +2138,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-  m_TileRefreshArray:
-  - serializedVersion: 1
-    m_DirtyIndex: 0
-  - serializedVersion: 1
-    m_DirtyIndex: 0
-  - serializedVersion: 1
-    m_DirtyIndex: 0
-  - serializedVersion: 1
-    m_DirtyIndex: 0
-  - serializedVersion: 1
-    m_DirtyIndex: 0
 --- !u!1 &1783650626
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,6 +2201,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -2292,7 +2324,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-  m_TileRefreshArray: []
 --- !u!1 &1803650483
 GameObject:
   m_ObjectHideFlags: 0
@@ -2398,7 +2429,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-  m_TileRefreshArray: []
 --- !u!1 &2085229834
 GameObject:
   m_ObjectHideFlags: 0

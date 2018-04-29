@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongLoom", "LongLoom.csproj", "{7C29263E-9956-4E6C-95A6-98F5AA9F12B2}"
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longloom", "longloom.csproj", "{BEF9378A-7805-B6DF-180B-E9D56B34BCCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7C29263E-9956-4E6C-95A6-98F5AA9F12B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C29263E-9956-4E6C-95A6-98F5AA9F12B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C29263E-9956-4E6C-95A6-98F5AA9F12B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C29263E-9956-4E6C-95A6-98F5AA9F12B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF9378A-7805-B6DF-180B-E9D56B34BCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF9378A-7805-B6DF-180B-E9D56B34BCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF9378A-7805-B6DF-180B-E9D56B34BCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF9378A-7805-B6DF-180B-E9D56B34BCCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
