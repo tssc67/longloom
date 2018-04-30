@@ -237,18 +237,30 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AlienController.cs" />
     <Compile Include="Assets\Scripts\Barricade.cs" />
+    <Compile Include="Assets\Scripts\Battery.cs" />
+    <Compile Include="Assets\Scripts\BlockTile.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\EnvironmentAI.cs" />
+    <Compile Include="Assets\Scripts\FixedSprite.cs" />
     <Compile Include="Assets\Scripts\FortBehav.cs" />
+    <Compile Include="Assets\Scripts\Gadgets\Drill.cs" />
+    <Compile Include="Assets\Scripts\Gadgets\Gadget.cs" />
+    <Compile Include="Assets\Scripts\Gadgets\Hand.cs" />
+    <Compile Include="Assets\Scripts\Gadgets\PowerPlantHand.cs" />
+    <Compile Include="Assets\Scripts\Gadgets\StructurePlacementHand.cs" />
     <Compile Include="Assets\Scripts\GameManagers.cs" />
+    <Compile Include="Assets\Scripts\Pair.cs" />
     <Compile Include="Assets\Scripts\PathFinder.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PowerPlant.cs" />
     <Compile Include="Assets\Scripts\PowerPlantBehav.cs" />
     <Compile Include="Assets\Scripts\Smelter.cs" />
+    <Compile Include="Assets\Scripts\Structure.cs" />
     <Compile Include="Assets\Scripts\SwarmController.cs" />
+    <Compile Include="Assets\Scripts\TeleportBeacon.cs" />
     <Compile Include="Assets\Scripts\TrapBehav.cs" />
+    <Compile Include="Assets\Scripts\WiredController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\longloomPlan.txt" />

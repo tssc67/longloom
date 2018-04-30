@@ -2,20 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PathFinder : MonoBehaviour {
-    public Grid grid;
+public class Drill : Gadget {
+
 	// Use this for initialization
 	void Start () {
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-
-    public void findPathToPlayer(EnemyController enemy,PlayerController player)
-    {   
-        
-    }
-
 }

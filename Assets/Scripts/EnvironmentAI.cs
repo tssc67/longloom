@@ -10,7 +10,7 @@ public class EnvironmentAI : MonoBehaviour {
     {
         GameObject alien = Instantiate(alienPrefab, new Vector2(0, 0), Quaternion.identity);
         alien.GetComponent<AlienController>().manager = manager;
-        pf.findPathToPlayer(alien, manager.character);
+        pf.findPathToPlayer(alien.GetComponent<AlienController>(), manager.character);
     }
     // Use this for initialization
     void Start () {

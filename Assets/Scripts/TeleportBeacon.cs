@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TeleportBeacon : MonoBehaviour {
 	
-	public TeleportBeacon * anotherTeleportBeacon;
+	public TeleportBeacon anotherTeleportBeacon;
 	public int cooldownTime; // delay between usage
 	public Battery battery;
 	public float energyConsumption;

@@ -31,7 +31,7 @@ public class Structure : MonoBehaviour{
 		connectedStructure.Add(s);
 	}
 
-	void ResetConnect(){
+	public void ResetConnect(){
 		connectedStructure.Clear ();
 	}
 }

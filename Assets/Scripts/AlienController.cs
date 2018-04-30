@@ -4,16 +4,16 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class AlienController : EnemyController {
-    private Rigidbody2D rbody;
-    private NavMeshAgent agent;
     public GameManagers manager;
+
     // Use this for initialization
     void Start () {
-        rbody = GetComponent<Rigidbody2D>();
+        _Start();
     }
 
     // Update is called once per frame
     void Update () {
+        _Update();
 	}
 
     private void OnCollisionEnter2D(Collision2D collision)
