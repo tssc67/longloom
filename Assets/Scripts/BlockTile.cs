@@ -12,6 +12,7 @@ public class BlockTile : Tile {
         Dirt = 1,
         IronOre = 2
     };
+
     public Sprite[] m_Sprites;
     public BlockType blockType = BlockType.Dirt;
     public override void GetTileData(Vector3Int location, ITilemap tilemap, ref TileData tileData)

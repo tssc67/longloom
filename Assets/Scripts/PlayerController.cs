@@ -8,8 +8,12 @@ public class PlayerController : MonoBehaviour {
     public Animator anim;
     public Animation anima;
     public Rigidbody2D rbody;
+    public GameObject powerPlantPlacement;
+    public GameObject currentPlacement;
+    public GameObject InventoryPrefab;
     public float speed;
     public float jumpPower;
+    protected Inventory inventory;
     private float inputH;
     private float inputV;
     private Gadget gadget;
@@ -20,10 +24,15 @@ public class PlayerController : MonoBehaviour {
     private float hp;
     private int direction;
     private float scale;
+    private Vector3Int playerCell;
     private List<Gadget> gadgets = new List<Gadget>(new Gadget[] {
         new Hand(),
         new Drill(),
     });
+    private enum Test
+    {
+        a,b
+    }
 	// Use this for initialization
 	protected void Start () {
         gadgetIndex = 0;
@@ -36,10 +45,16 @@ public class PlayerController : MonoBehaviour {
         gadget = gadgets[gadgetIndex];
         anim = GetComponent<Animator>();
         rbody = GetComponent<Rigidbody2D>();
-	}
+        inventory = (
+            (GameObject)Instantiate(InventoryPrefab)
+        ).GetComponent<Inventory>();
+        powerPlantPlacement = Instantiate(powerPlantPlacement);
+        powerPlantPlacement.SetActive(false);
+    }
 	
 	// Update is called once per frame
 	protected void Update () {
+        powerPlantPlacement.GetComponent<SpriteRenderer>().color = new Color(1.0f, 1.0f, 0, 0.5f);
         //Code for move character
         inputH = Input.GetAxis("Horizontal");
         inputV = Input.GetAxis("Vertical");
@@ -52,7 +67,6 @@ public class PlayerController : MonoBehaviour {
         {
             switchGadget();
         }
-
         Vector3 m = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         updateMouse(m);
         if (m.x - rbody.position.x <0)
@@ -93,9 +107,17 @@ public class PlayerController : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             gadget = new PowerPlantHand();
+            currentPlacement = powerPlantPlacement;
+            
+            //Destroy(powerPlantPlacement.GetComponent<Rigidbody2D>());
         }
 
         rbody.velocity = new Vector3(moveX, moveY);
+        if (gadget is PowerPlantHand)
+        {
+            powerPlantPlacement.SetActive(true);
+        }
+        else powerPlantPlacement.SetActive(false);
     }
     public float getHP()
     {
@@ -121,14 +143,26 @@ public class PlayerController : MonoBehaviour {
     }
     private void blankClick()
     {
+        if(gadget is StructurePlacementHand)
+        {
+            //StructurePlacementHand.getStructure();
+            
+        }
+    }
+    private void placementMove(Vector3Int over)
+    {
+        Tile tile = manager.block.GetTile(over) as Tile;
+        Vector3 worldPos = manager.block.CellToWorld(over);
+
+        powerPlantPlacement.transform.position = new Vector3(worldPos.x + 0.5f, worldPos.y, worldPos.z);
     }
     private void updateMouse(Vector3 m)
     {
+        Vector3Int cellOver= manager.block.WorldToCell(m);
         if (Input.GetMouseButtonDown(0))
         {
             Tilemap map = manager.block;
-            Vector3Int cellClicked = manager.block.WorldToCell(m);
-            Tile a = manager.block.GetTile(cellClicked) as Tile;
+            Tile a = manager.block.GetTile(cellOver) as Tile;
             if(a == null)
             {
                 //No block
@@ -138,9 +172,12 @@ public class PlayerController : MonoBehaviour {
             {
                 //Scripted Block
                 BlockTile tile = a as BlockTile;
-                map.SetTile(cellClicked, null);
+                map.SetTile(cellOver, null);
                 Debug.Log(tile.blockType);
             }
+        } else
+        {
+            placementMove(cellOver);
         }
     }
 }
