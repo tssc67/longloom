@@ -7,8 +7,9 @@ public class Structure : MonoBehaviour{
 	public int hp;
     public int width;
     public int height;
-    // I will assume that, the reference point of structure that has 2*2 size is at bottom left
-    // and this is based on x=0 at leftmost, y=0 at bottommost
+    // the upperleftmost block is (0,0)
+    // block to the right is +
+    // block down is -
     // the reference will affect the code at wireController on checking whether is that structure connected to the wire or not
 	public List<Structure> connectedStructure;
 	// Use this for initialization

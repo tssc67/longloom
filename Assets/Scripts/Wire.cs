@@ -8,9 +8,9 @@ public class Wire : MonoBehaviour
 
     void Start()
     {
-        int x = MapController.GetBlockX(transform.position);
-        int y = MapController.GetBlockY(transform.position);
-        GameLogic.wireBlock[x, y] = this;
+        int x = (int) (transform.position.x);
+        int y = (int) (- transform.position.y); // because y=0 is uppermost, y=-maxsize is downmost, but I want y as a plus value for array
+        if (x >= 0 && y >= 0) GameLogic.wireBlock[y, x] = this;
     }
 
     void Update()
@@ -20,9 +20,9 @@ public class Wire : MonoBehaviour
 
     void OnDestroy()
     {
-        int x = MapController.GetBlockX(transform.position);
-        int y = MapController.GetBlockY(transform.position);
-        GameLogic.wireBlock[x, y] = null;
+        int x = (int)(transform.position.x);
+        int y = (int)(-transform.position.y); // because y=0 is uppermost, y=-maxsize is downmost, but I want y as a plus value for array
+        if (x >= 0 && y >= 0) GameLogic.wireBlock[y, x] = null;
     }
 
     public void SetWireGroup(int groupNumber)

@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class WiredController : MonoBehaviour
 {
-    
-    public List<Pair> markedWire;
-
     // call this everytime new structure or wire is placed
     public void OnPlace()
     {
@@ -26,34 +23,34 @@ public class WiredController : MonoBehaviour
 
         // group every wire together
         int setNumber = 0;
-		foreach (GameObject obj in GameLogic.Obj)
-		{
+        foreach (GameObject obj in GameLogic.Obj)
+        {
             var wireObj = obj.GetComponent<Wire>();
             // if it's a wire
-			if (wireObj != null)
-			{
+            if (wireObj != null)
+            {
                 if (wireObj.wireGroup != -1)
                 {
                     wireObj.SetWireGroup(setNumber);
                     recursiveCheck(wireObj, setNumber);
                     setNumber++;
                 }
-				// markedWire.Add(new Pair(obj, setNumber));
-			}
-		}
+                // markedWire.Add(new Pair(obj, setNumber));
+            }
+        }
 
         // add structure to group of adjacent wire
-		List<Structure>[] structure = new List<Structure>[setNumber];
-		foreach (GameObject obj in GameLogic.Obj)
-		{
+        List<Structure>[] structure = new List<Structure>[setNumber];
+        foreach (GameObject obj in GameLogic.Obj)
+        {
             var structureObj = obj.GetComponent<Structure>();
-			if (structureObj != null)
-			{
-                int x = MapController.GetBlockX(obj.transform.position);
-                int y = MapController.GetBlockY(obj.transform.position);
+            if (structureObj != null)
+            {
+                int x = (int) (obj.transform.position.x);
+                int y = (int) (obj.transform.position.y);
 
                 // check left and right side of structure
-                for (int i=0; i<structureObj.height; i++)
+                for (int i = 0; i < structureObj.height; i++)
                 {
                     Wire w = GameLogic.wireBlock[y + i, x - 1];
                     if (w != null)
@@ -96,28 +93,28 @@ public class WiredController : MonoBehaviour
                     }
                 }
             }
-		}
+        }
 
         // connect structure from each group of wire together
-		for (int i = 0; i<setNumber; i++)
-		{
-			foreach (Structure str1 in structure[i])
-			{
-				foreach (Structure str2 in structure[i])
-				{
-					if (str1 != str2)
-					{
+        for (int i = 0; i < setNumber; i++)
+        {
+            foreach (Structure str1 in structure[i])
+            {
+                foreach (Structure str2 in structure[i])
+                {
+                    if (str1 != str2)
+                    {
                         str1.Connect(str2);
-					}
-				}
-			}
-		}
-	}
+                    }
+                }
+            }
+        }
+    }
 
-	private void recursiveCheck(Wire obj, int setNumber)
+    private void recursiveCheck(Wire obj, int setNumber)
     {
-        int x = MapController.GetBlockX(obj.transform.position);
-        int y = MapController.GetBlockY(obj.transform.position);
+        int x = (int) (obj.transform.position.x);
+        int y = (int) (obj.transform.position.y);
 
         Wire w = GameLogic.wireBlock[y - 1, x];
         if (w != null) // a wire object
