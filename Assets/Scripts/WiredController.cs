@@ -42,29 +42,72 @@ public class WiredController : MonoBehaviour
 			}
 		}
 
-		List<GameObject>[] structure = new List<GameObject>[setNumber];
-		foreach (GameObject obj in objs)
+        // add structure to group of adjacent wire
+		List<Structure>[] structure = new List<Structure>[setNumber];
+		foreach (GameObject obj in GameLogic.Obj)
 		{
             var structureObj = obj.GetComponent<Structure>();
 			if (structureObj != null)
 			{
-				GameObject x = GameLogic.Wire.getObjectAt(obj.x - 1, obj.y);
-				if (x != null)
-				{
-					structure[markedWire.Where(p => p.Key == x)].Add(obj);
+                int x = MapController.GetBlockX(obj.transform.position);
+                int y = MapController.GetBlockY(obj.transform.position);
 
-				}
-			}
+                // check left and right side of structure
+                for (int i=0; i<structureObj.height; i++)
+                {
+                    Wire w = GameLogic.wireBlock[y + i, x - 1];
+                    if (w != null)
+                    {
+                        if (!structure[w.wireGroup].Contains(structureObj)) // if it wasn't already add to that group
+                        {
+                            structure[w.wireGroup].Add(structureObj);
+                        }
+                    }
+
+                    w = GameLogic.wireBlock[y + i, x + structureObj.width - 1];
+                    if (w != null)
+                    {
+                        if (!structure[w.wireGroup].Contains(structureObj)) // if it wasn't already add to that group
+                        {
+                            structure[w.wireGroup].Add(structureObj);
+                        }
+                    }
+                }
+
+                // check top and bottom side of structure
+                for (int i = 0; i < structureObj.width; i++)
+                {
+                    Wire w = GameLogic.wireBlock[y - 1, x + i];
+                    if (w != null)
+                    {
+                        if (!structure[w.wireGroup].Contains(structureObj)) // if it wasn't already add to that group
+                        {
+                            structure[w.wireGroup].Add(structureObj);
+                        }
+                    }
+
+                    w = GameLogic.wireBlock[y + structureObj.height - 1, x + i];
+                    if (w != null)
+                    {
+                        if (!structure[w.wireGroup].Contains(structureObj)) // if it wasn't already add to that group
+                        {
+                            structure[w.wireGroup].Add(structureObj);
+                        }
+                    }
+                }
+            }
 		}
+
+        // connect structure from each group of wire together
 		for (int i = 0; i<setNumber; i++)
 		{
-			foreach (GameObject obj in Structure[i])
+			foreach (Structure str1 in structure[i])
 			{
-				foreach (GameObject obj2 in Structure[i])
+				foreach (Structure str2 in structure[i])
 				{
-					if (obj != obj2)
+					if (str1 != str2)
 					{
-						obj.connected(obj2)
+                        str1.Connect(str2);
 					}
 				}
 			}
@@ -75,23 +118,45 @@ public class WiredController : MonoBehaviour
     {
         int x = MapController.GetBlockX(obj.transform.position);
         int y = MapController.GetBlockY(obj.transform.position);
-        Wire w = GameLogic.wireBlock.[y - 1, x];
 
+        Wire w = GameLogic.wireBlock[y - 1, x];
         if (w != null) // a wire object
         {
             if (w.wireGroup == -1) // does not have group
             {
                 w.SetWireGroup(setNumber);
-                recursiveCheck()
+                recursiveCheck(w, setNumber);
             }
-            markedWire.Add(new Pair(x, setNumber));
-            recursiveCheck(x, setNumber);
         }
-        x = GameLogic.Wire.getObjectAt(obj.x + 1, obj.y);
-        if (x != null)
+
+        w = GameLogic.wireBlock[y + 1, x];
+        if (w != null) // a wire object
         {
-            markedWire.Add(new Pair(x, setNumber));
-            recursiveCheck(x, setNumber);
+            if (w.wireGroup == -1) // does not have group
+            {
+                w.SetWireGroup(setNumber);
+                recursiveCheck(w, setNumber);
+            }
+        }
+
+        w = GameLogic.wireBlock[y, x + 1];
+        if (w != null) // a wire object
+        {
+            if (w.wireGroup == -1) // does not have group
+            {
+                w.SetWireGroup(setNumber);
+                recursiveCheck(w, setNumber);
+            }
+        }
+
+        w = GameLogic.wireBlock[y, x - 1];
+        if (w != null) // a wire object
+        {
+            if (w.wireGroup == -1) // does not have group
+            {
+                w.SetWireGroup(setNumber);
+                recursiveCheck(w, setNumber);
+            }
         }
     }
 }

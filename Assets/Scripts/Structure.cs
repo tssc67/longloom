@@ -5,6 +5,11 @@ using UnityEngine;
 public class Structure : MonoBehaviour{
 
 	public int hp;
+    public int width;
+    public int height;
+    // I will assume that, the reference point of structure that has 2*2 size is at bottom left
+    // and this is based on x=0 at leftmost, y=0 at bottommost
+    // the reference will affect the code at wireController on checking whether is that structure connected to the wire or not
 	public List<Structure> connectedStructure;
 	// Use this for initialization
 	void Start () {
@@ -27,7 +32,7 @@ public class Structure : MonoBehaviour{
 		Destroy(gameObject);
 	}
 
-	void Connect(Structure s){
+	public void Connect(Structure s){
 		connectedStructure.Add(s);
 	}
 
