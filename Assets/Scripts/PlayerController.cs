@@ -172,7 +172,10 @@ public class PlayerController : MonoBehaviour {
             {
                 //Scripted Block
                 BlockTile tile = a as BlockTile;
-                map.SetTile(cellOver, null);
+                if (tile.blockType == BlockTile.BlockType.Dirt || tile.blockType == BlockTile.BlockType.IronOre)
+                {
+                    map.SetTile(cellOver, null);
+                }
                 Debug.Log(tile.blockType);
             }
         } else

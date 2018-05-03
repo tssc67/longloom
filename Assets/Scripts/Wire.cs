@@ -8,9 +8,9 @@ public class Wire : MonoBehaviour
 
     void Start()
     {
-        int x = MapController.GetBlockX(transform.position);
-        int y = MapController.GetBlockY(transform.position);
-        GameLogic.wireBlock[x, y] = this;
+        //int x = MapController.GetBlockX(transform.position);
+        //int y = MapController.GetBlockY(transform.position);
+        //GameLogic.wireBlock[x, y] = this;
     }
 
     void Update()
@@ -20,9 +20,9 @@ public class Wire : MonoBehaviour
 
     void OnDestroy()
     {
-        int x = MapController.GetBlockX(transform.position);
-        int y = MapController.GetBlockY(transform.position);
-        GameLogic.wireBlock[x, y] = null;
+        //int x = MapController.GetBlockX(transform.position);
+        //int y = MapController.GetBlockY(transform.position);
+        //GameLogic.wireBlock[x, y] = null;
     }
 
     public void SetWireGroup(int groupNumber)

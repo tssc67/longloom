@@ -10,7 +10,9 @@ public class BlockTile : Tile {
     public enum BlockType
     {
         Dirt = 1,
-        IronOre = 2
+        IronOre = 2,
+        Lava = 3,
+        Undiggable = 4
     };
 
     public Sprite[] m_Sprites;
