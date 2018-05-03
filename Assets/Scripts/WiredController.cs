@@ -46,8 +46,8 @@ public class WiredController : MonoBehaviour
             var structureObj = obj.GetComponent<Structure>();
             if (structureObj != null)
             {
-                int x = MapController.GetBlockX(obj.transform.position);
-                int y = MapController.GetBlockY(obj.transform.position);
+                int x = (int) (obj.transform.position.x);
+                int y = (int) (obj.transform.position.y);
 
                 // check left and right side of structure
                 for (int i = 0; i < structureObj.height; i++)
