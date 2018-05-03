@@ -51,13 +51,20 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+<<<<<<< HEAD
   singleChannelComponent: 0
+=======
+>>>>>>> origin/pluem
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
+<<<<<<< HEAD
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
+=======
+  - buildTarget: DefaultTexturePlatform
+>>>>>>> origin/pluem
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -72,12 +79,15 @@ TextureImporter:
     sprites: []
     outline: []
     physicsShape: []
+<<<<<<< HEAD
     bones: []
     spriteID: 5a9bec1c90c324e4d82f22efedb39252
     vertices: []
     indices: 
     edges: []
     weights: []
+=======
+>>>>>>> origin/pluem
   spritePackingTag: 
   userData: 
   assetBundleName: 
