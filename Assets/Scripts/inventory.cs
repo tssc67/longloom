@@ -6,6 +6,7 @@ public class Inventory : MonoBehaviour
 {
     public enum ItemType
     {
+        Dirt,
         Iron,
         Oil,
         Bullet,
@@ -15,13 +16,14 @@ public class Inventory : MonoBehaviour
         Turret,
         Barricade
     };
-    protected int[] items;
+    public int[] items;
     List<Battery> batteries = new List<Battery>();
 
 	void Start()
     {
         items = new int[]
         {
+            0,
             0, 
             0,
             0,
@@ -38,12 +40,12 @@ public class Inventory : MonoBehaviour
 
     }
 
-    void addItem(ItemType itemType,int amount)
+    public void addItem(ItemType itemType,int amount)
     {
         if (amount > 0) items[(int)itemType] += amount;
     }
 
-    void reduceItem(ItemType itemType,int amount)
+    public void reduceItem(ItemType itemType,int amount)
     {
         if (amount < 0) return;
         int newAmount = items[(int)itemType] - amount;

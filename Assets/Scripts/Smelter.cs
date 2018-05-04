@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Smelter : MonoBehaviour {
+public class Smelter : Structure {
+    // Use this for initialization
+    Smelter()
+    {
+        inventoryId = 5;
 
-	// Use this for initialization
-	void Start () {
+    }
+    void Start () {
 		
 	}
 	

@@ -9,11 +9,13 @@ public class PlayerController : MonoBehaviour {
     public Animation anima;
     public Rigidbody2D rbody;
     public GameObject powerPlantPlacement;
+    public GameObject smelterPlacement;
     public GameObject currentPlacement;
+    public GameObject bullet;
     public GameObject InventoryPrefab;
     public float speed;
     public float jumpPower;
-    protected Inventory inventory;
+    public Inventory inventory;
     private float inputH;
     private float inputV;
     private Gadget gadget;
@@ -26,7 +28,6 @@ public class PlayerController : MonoBehaviour {
     private float scale;
     private Vector3Int playerCell;
     private List<Gadget> gadgets = new List<Gadget>(new Gadget[] {
-        new Hand(),
         new Drill(),
     });
     private enum Test
@@ -50,11 +51,14 @@ public class PlayerController : MonoBehaviour {
         ).GetComponent<Inventory>();
         powerPlantPlacement = Instantiate(powerPlantPlacement);
         powerPlantPlacement.SetActive(false);
+        smelterPlacement = Instantiate(smelterPlacement);
+        smelterPlacement.SetActive(false);
     }
 	
 	// Update is called once per frame
 	protected void Update () {
-        powerPlantPlacement.GetComponent<SpriteRenderer>().color = new Color(1.0f, 1.0f, 0, 0.5f);
+        //powerPlantPlacement.GetComponent<SpriteRenderer>().color = new Color(1.0f, 1.0f, 0, 0.5f);
+        //smelterPlacement.GetComponent<SpriteRenderer>().color = new Color(1.0f, 1.0f, 0, 0.5f);
         //Code for move character
         inputH = Input.GetAxis("Horizontal");
         inputV = Input.GetAxis("Vertical");
@@ -111,6 +115,12 @@ public class PlayerController : MonoBehaviour {
             
             //Destroy(powerPlantPlacement.GetComponent<Rigidbody2D>());
         }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            gadget = new SmelterHand();
+            currentPlacement = smelterPlacement;
+            //Destroy(powerPlantPlacement.GetComponent<Rigidbody2D>();
+        }
 
         rbody.velocity = new Vector3(moveX, moveY);
         if (gadget is PowerPlantHand)
@@ -118,6 +128,11 @@ public class PlayerController : MonoBehaviour {
             powerPlantPlacement.SetActive(true);
         }
         else powerPlantPlacement.SetActive(false);
+        if (gadget is SmelterHand)
+        {
+            smelterPlacement.SetActive(true);
+        }
+        else smelterPlacement.SetActive(false);
     }
     public float getHP()
     {
@@ -129,32 +144,72 @@ public class PlayerController : MonoBehaviour {
         gadgetIndex %= gadgets.Count;
         gadget = gadgets[gadgetIndex];
     }
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        jump = false;
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.collider.tag == "Enemies")
+        if (other.tag == "Enemies")
         {
             Debug.Log("Alien Hit");
             hp -= 10;
         }
     }
-    private void blankClick()
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        Vector3 bottom = GetComponent<SpriteRenderer>().bounds.min;
+        Vector3 p = manager.block.WorldToCell(collision.contacts[0].point);
+
+        if(Mathf.Abs(p.y - bottom.y) <  0.02)
+        {
+            jump = false;
+        }
+    }
+    
+    private void shoot(Vector3 m)
+    {
+        Debug.Log("Shoot!");
+        Bullet b = Instantiate(bullet).GetComponent<Bullet>();
+        Vector3 bPos = transform.position;
+        Vector3 v = new Vector3();
+        float dx, dy;
+        float sin, cos,hyp;
+        dx = m.x - transform.position.x;
+        dy = m.y - transform.position.y;
+        hyp = Mathf.Sqrt(dx * dx + dy * dy);
+        sin = dy / hyp;
+        cos = dx / hyp;
+        v.x = cos * b.bulletSpeed;
+        v.y = sin * b.bulletSpeed;
+        if(direction == -1)
+        {
+            bPos.x = GetComponent<SpriteRenderer>().bounds.min.x;
+        } else
+        {
+            bPos.x = GetComponent<SpriteRenderer>().bounds.max.x;
+
+        }
+        b.transform.position = bPos;
+        b.GetComponent<Rigidbody2D>().velocity = v;
+    }
+    private void blankClick(Vector3Int over,Vector3 m)
     {
         if(gadget is StructurePlacementHand)
         {
-            //StructurePlacementHand.getStructure();
-            
+            Structure structure = currentPlacement.GetComponent<Structure>();
+            structure.manager = manager;
+            structure.Construct(over);
+        } else if (gadget is Drill)
+        {
+            shoot(m);
         }
     }
     private void placementMove(Vector3Int over)
     {
         Tile tile = manager.block.GetTile(over) as Tile;
         Vector3 worldPos = manager.block.CellToWorld(over);
-
-        powerPlantPlacement.transform.position = new Vector3(worldPos.x + 0.5f, worldPos.y, worldPos.z);
+        if(currentPlacement)
+        {
+            currentPlacement.transform.position = new Vector3(worldPos.x + 0.5f, worldPos.y, worldPos.z);
+        }
     }
     private void updateMouse(Vector3 m)
     {
@@ -166,15 +221,21 @@ public class PlayerController : MonoBehaviour {
             if(a == null)
             {
                 //No block
-                blankClick();
-                Debug.Log("Air clicked");
+                blankClick(cellOver,m);
+                
             } else if(a is BlockTile)
             {
                 //Scripted Block
                 BlockTile tile = a as BlockTile;
-                if (tile.blockType == BlockTile.BlockType.Dirt || tile.blockType == BlockTile.BlockType.IronOre)
+                if (tile.blockType == BlockTile.BlockType.Dirt 
+                 || tile.blockType == BlockTile.BlockType.IronOre
+                 || tile.blockType == BlockTile.BlockType.Oil)
                 {
-                    map.SetTile(cellOver, null);
+                    if(gadget is Drill)
+                    {
+                        tile.dig(this);
+                        map.SetTile(cellOver, null);
+                    }
                 }
                 Debug.Log(tile.blockType);
             }

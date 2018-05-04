@@ -9,8 +9,9 @@ using UnityEngine.Tilemaps;
 public class BlockTile : Tile {
     public enum BlockType
     {
-        Dirt = 1,
-        IronOre = 2,
+        Dirt = 0,
+        IronOre = 1,
+        Oil = 2,
         Lava = 3,
         Undiggable = 4
     };
@@ -24,6 +25,10 @@ public class BlockTile : Tile {
             tileData.transform = m;
             tileData.flags = TileFlags.LockTransform;
             tileData.colliderType = ColliderType.Grid;
+    }
+    public void dig(PlayerController player)
+    {
+        player.inventory.addItem((Inventory.ItemType)blockType, 10);
     }
 #if UNITY_EDITOR
     // The following is a helper that adds a menu item to create a RoadTile Asset

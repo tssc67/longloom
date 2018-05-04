@@ -4,16 +4,4 @@ using UnityEngine;
 
 public class StructurePlacementHand : Gadget
 {
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

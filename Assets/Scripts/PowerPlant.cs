@@ -2,7 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerPlant : MonoBehaviour {
+public class PowerPlant : Structure {
+    PowerPlant()
+    {
+        inventoryId = 4;
+    }
+    void Start()
+    {
+
+    }
+    void Update()
+    {
+
+    }
  //   public GameObject batteryPrefab;
  //   int hp = 2000;
  //   bool isAlive = true;
